@@ -598,7 +598,7 @@ a {
 .widget_search .search-submit {
   display: none; }
 
-/* Sidebar */
+/* Sidebar*/
 .contact-meta a {
   text-decoration: none;
   color: #248A83; }
@@ -740,6 +740,21 @@ object {
 /*--------------------------------------------------------------
 # 404
 --------------------------------------------------------------*/
+.error404 .site-content {
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1120px; }
+
+.error404 .content-area {
+  border-right: 1px solid #e1e1e1;
+  padding-right: 5%;
+  width: 1120px;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto; }
+
 .site-footer {
   background-image: url("../../asset/dark-wood.png");
   padding-top: 4%;

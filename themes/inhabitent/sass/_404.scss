@@ -2,3 +2,16 @@
 # 404
 --------------------------------------------------------------*/
 
+.error404 .site-content {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1120px;
+}
+.error404 .content-area {
+  border-right: $border-solid;
+  padding-right: 5%;
+  width: 1120px;
+  display: flex;
+  margin: 0 auto;
+}
