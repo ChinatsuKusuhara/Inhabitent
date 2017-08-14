@@ -23,25 +23,18 @@ add_filter( 'body_class', 'red_starter_body_classes' );
 
 
 //customized WP logo to Inhabitent logo on login page 
-function inhabitent_logo() {
-     echo '<style type="text/css">                                                                   
-         h1 a { background-image:url('.get_stylesheet_directory_uri().'/asset/logos/inhabitent-logo-text-dark.svg) !important; 
-         height: 65px !important; width: 410px !important; margin-left: -40px;}                            
-     </style>';
-}
-add_action('login_head', 'inhabitent_logo');
-
-
 //changed link of the login
-function inhabitent_login_logo() {
-	return home_url();
-}
-add_filter('login_headerurl', 'inhabitent_login_logo');
+function inhabitent_login_logo() { ?>
+	 <style type="text/css">
+		#login h1 a, .login h1 a {
+			background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/asset/logos/inhabitent-logo-text-dark.svg);
+			padding-bottom: 30px;
+			background-size: 310px !important;
+			width: 310px !important;
+			background-position: bottom !important;
+		}
+	</style> 
+<?php }
 
-
-
-//customized the title attribute for the login logo link 
-function inhabitent_login_title() {
-	return 'Inhabitent';
-}
+add_filter('login_enqueue_scripts', 'inhabitent_login_logo');
 add_filter( 'logo_headertitle', 'inhabitent_login_title');

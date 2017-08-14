@@ -42,6 +42,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 # Page Templates
 	## Front page
+	## 404
 --------------------------------------------------------------*/
 html {
   font-family: sans-serif;
@@ -656,9 +657,27 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.hero-banner {
+  background-image: url("../../asset/home-hero.jpg");
+  height: 100vh;
+  background-size: cover; }
+
 .logo-tent-white {
   height: 60px; }
 
 .main-navigation {
+  display: -ms-flexbox;
+  display: flex; }
+
+/*--------------------------------------------------------------
+# 404
+--------------------------------------------------------------*/
+.site-footer {
+  background-image: url("../../asset/dark-wood.png");
+  padding-top: 4%;
+  padding-bottom: 2%;
+  color: #fff; }
+
+.business-hours {
   display: -ms-flexbox;
   display: flex; }
