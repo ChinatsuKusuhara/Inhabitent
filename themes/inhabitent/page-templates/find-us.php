@@ -1,6 +1,6 @@
 <?php
 /**
- * Template: Find Us
+ * Template Name: Find Us
  *
  * @package RED_Starter_Theme
  */

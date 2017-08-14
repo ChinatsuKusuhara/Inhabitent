@@ -19,7 +19,7 @@
 										<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>info@inhabitent.com</a>
 									</li>
 									<li class="media">
-										<a href="#"><i class="fa fa-phone" aria-hidden="true"></i>78-456-7891</a>
+										<a href="#"><i class="fa fa-phone" aria-hidden="true"></i>778-456-7891</a>
 									</li>
 									<li class="icon-media">
 										<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
