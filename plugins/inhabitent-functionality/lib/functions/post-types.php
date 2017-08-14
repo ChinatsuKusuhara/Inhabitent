@@ -16,7 +16,7 @@ function inhabitent_cpt_product() {
       'archives'              => 'Product Archives',
       'attributes'            => 'Product Attributes',
       'parent_item_colon'     => 'Parent Product:',
-      'all_items'             => 'All Products',
+      'all_items'             => 'All Products', 
       'add_new_item'          => 'Add New Product',
       'add_new'               => 'Add New',
       'new_item'              => 'New Product',
@@ -58,6 +58,9 @@ function inhabitent_cpt_product() {
       'show_in_rest'          => true,
     );
     register_post_type( 'product', $args );
+
+    //Clear Permalinks 
+    flush_rewrite_rules();
   
   }
   add_action( 'init', 'inhabitent_cpt_product', 0 );
