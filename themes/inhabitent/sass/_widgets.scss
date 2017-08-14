@@ -15,3 +15,27 @@
 .widget_search .search-submit {
 	display: none;
 }
+
+/* Sidebar */
+.contact-meta a {
+	text-decoration: none;
+	color: $color_green;
+}
+.widget,
+	ul {
+		padding-left: 0;
+		margin-left: 0;
+	}
+.widget a {
+	color: $color_green;
+	text-decoration: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+.widget-title {
+	text-transform: uppercase;
+}
+.widget-area {
+	margin-left: 5%;
+	width: 27%;
+}

@@ -598,6 +598,29 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+/* Sidebar */
+.contact-meta a {
+  text-decoration: none;
+  color: #248A83; }
+
+.widget,
+ul {
+  padding-left: 0;
+  margin-left: 0; }
+
+.widget a {
+  color: #248A83;
+  text-decoration: none;
+  padding-left: 0;
+  margin-left: 0; }
+
+.widget-title {
+  text-transform: uppercase; }
+
+.widget-area {
+  margin-left: 5%;
+  width: 27%; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
