@@ -18,7 +18,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 		<div class="hero-banner">
-			<img src=" <?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-full.svg" alt="Inhabitent Camping Supply Co.">
+			<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-full.svg" alt="Inhabitent Camping Supply Co.">
 		</div>
 	</div><!-- #primary -->
 

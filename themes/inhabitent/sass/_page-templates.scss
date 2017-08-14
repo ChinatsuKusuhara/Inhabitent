@@ -4,7 +4,8 @@
 
 /* Front page */
 .hero-banner {
-  background-image: url('../../asset/home-hero.jpg');
+  background-image: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
+    url('../../asset/home-hero.jpg');
   height: 100vh;
   background-size: cover;
 }
