@@ -768,9 +768,6 @@ object {
     .site-footer .site-info h3 {
       color: #d99054; }
 
-.contactInfo {
-  margin-left: 4.5em; }
-
 .uppercase {
   text-transform: uppercase; }
 
@@ -796,6 +793,21 @@ li,
   width: 1120px; }
 
 .blog .content-area {
+  border-right: 1px solid #e1e1e1;
+  padding-right: 5%;
+  width: 1120px;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto; }
+
+.page-id-11 .site-content {
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1120px; }
+
+.page-id-11 .content-area {
   border-right: 1px solid #e1e1e1;
   padding-right: 5%;
   width: 1120px;
