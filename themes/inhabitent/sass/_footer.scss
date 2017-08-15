@@ -13,11 +13,19 @@
         }
     }
 }   
-// .contactInfo {
-//   margin-left: 1.5em;
-// }
 .uppercase{
   text-transform: uppercase;
+  font-family: $font__secondary;
+	font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+
+  // FIX THIS
+  //   p span .bold{
+  //     font-family: $font__main;  
+  //     font-weight: bold;
+  //     font-style: normal;
+  //   }
 }
 .copyright {
   align-self: center;

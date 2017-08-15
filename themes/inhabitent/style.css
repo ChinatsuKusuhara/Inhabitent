@@ -773,7 +773,11 @@ object {
       color: #d99054; }
 
 .uppercase {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "Novecento", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px; }
 
 .copyright {
   -ms-flex-item-align: center;
@@ -829,7 +833,8 @@ li,
     font-size: 3em;
     font-family: "Novecento", sans-serif;
     font-weight: 600;
-    font-style: normal; }
+    font-style: normal;
+    letter-spacing: 2px; }
 
 .entry-title {
   text-align: center; }
@@ -838,7 +843,8 @@ li,
     font-family: "Novecento", sans-serif;
     font-weight: 600;
     font-style: normal;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 2px; }
 
 .s1 {
   line-height: 1.75; }
