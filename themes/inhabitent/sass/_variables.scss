@@ -28,10 +28,10 @@ $color_orange: #d99054;
 $color_yellow: #f0e4d1;
 $color_white: #fff;
 
-// Typography
+// Typography (do not forget to add font-weight & font-style)
 
-$font__main: "Merriweather", serif;
-$font__secondary: "Novecento", sans-serif;
+$font__main: "Merriweather", serif;  
+$font__secondary: "Novecento", sans-serif;  
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;

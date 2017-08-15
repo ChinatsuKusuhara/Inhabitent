@@ -5,27 +5,28 @@
 
 @font-face {
 	font-family: 'Novecento';
-	src: url('../../asset/fonts/Novecento/42da4f21f10e8620399eccf8a92e274d.eot');
-	src: url('../../asset/fonts/Novecento/42da4f21f10e8620399eccf8a92e274d.eot?#iefix') format('embedded-opentype'),
-		url('../../asset/fonts/Novecento/42da4f21f10e8620399eccf8a92e274d.woff2') format('woff2'),
-		url('../../asset/fonts/Novecento/42da4f21f10e8620399eccf8a92e274d.woff') format('woff'),
-		url('../../asset/fonts/Novecento/42da4f21f10e8620399eccf8a92e274d.ttf') format('truetype'),
-		url('../../asset/fonts/Novecento/42da4f21f10e8620399eccf8a92e274d.svg#.') format('svg');
-	font-weight: normal;
+	src: url('../../asset/fonts/Novecentosanswide-DemiBold.eot');
+	src: url('../../asset/fonts/Novecentosanswide-DemiBold.eot?#iefix') format('embedded-opentype'),
+		url('Novecentosanswide-DemiBold.woff2') format('woff2'),
+		url('Novecentosanswide-DemiBold.woff') format('woff'),
+		url('Novecentosanswide-DemiBold.ttf') format('truetype'),
+		url('Novecentosanswide-DemiBold.svg#Novecentosanswide-DemiBold') format('svg');
+	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Novecento';
-	src: url('../../asset/fonts/Novecento/f60b18bdf31b35018501c75d26444929.eot');
-	src: url('../../asset/fonts/Novecento/f60b18bdf31b35018501c75d26444929.eot?#iefix') format('embedded-opentype'),
-		url('../../asset/fonts/Novecento/f60b18bdf31b35018501c75d26444929.woff2') format('woff2'),
-		url('../../asset/fonts/Novecento/f60b18bdf31b35018501c75d26444929.woff') format('woff'),
-		url('../../asset/fonts/Novecento/f60b18bdf31b35018501c75d26444929.ttf') format('truetype'),
-		url('../../asset/fonts/Novecento/f60b18bdf31b35018501c75d26444929.svg#.') format('svg');
-	font-weight: bold;
+	src: url('../../asset/fonts/Novecentosanswide-Normal.eot');
+	src: url('../../asset/fonts/Novecentosanswide-Normal.eot?#iefix') format('embedded-opentype'),
+		url('Novecentosanswide-Normal.woff2') format('woff2'),
+		url('Novecentosanswide-Normal.woff') format('woff'),
+		url('Novecentosanswide-Normal.ttf') format('truetype'),
+		url('Novecentosanswide-Normal.svg#Novecentosanswide-Normal') format('svg');
+	font-weight: normal;
 	font-style: normal;
 }
+
 @font-face {
 	font-family: 'Merriweather';
 	src: url('../../asset/fonts/Merriweather/OpenSans-BoldItalic.eot');

@@ -7,6 +7,9 @@
       text-transform: uppercase;
       padding-top: 6em;
       font-size: 3em;
+      font-family: $font__secondary;
+      font-weight: 600;
+      font-style: normal;
     }
 }
 .entry-title {
@@ -14,9 +17,13 @@
 
     h2 {
      font-size: 2rem;
-
-      .p1 {
-        font-family: serif;
-      }
+     font-family: $font__secondary;
+     font-weight: 600;
+     font-style: normal;
+     text-transform: uppercase;
    }
+}
+
+.s1 {
+  line-height: 1.75;
 }
