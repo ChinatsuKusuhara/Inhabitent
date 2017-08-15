@@ -27,8 +27,12 @@
   //     font-style: normal;
   //   }
 }
-.copyright {
+.copyright {  //debug this! 
   align-self: center;
+  text-transform: uppercase;
+  font-family: $font__secondary;
+  font-weight: normal;
+	font-style: normal;
 }
 li, 
 .media a{

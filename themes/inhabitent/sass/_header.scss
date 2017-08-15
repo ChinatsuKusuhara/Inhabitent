@@ -1,7 +1,25 @@
 .logo-tent-white {
   height: 60px;
+  height: 33px;
+  margin-left: 10rem;
+  margin-top: 1em;
 }
 .main-navigation{
   display: flex;
   justify-content: space-between;
+
+  .menu {
+    position: relative;
+    margin-right: 10rem;
+    margin-top: 1em;
+    font-family: $font__secondary;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    text-transform: uppercase;
+
+    .menu-item{
+      padding-left: 1.5rem;        
+    }
+  }
 }

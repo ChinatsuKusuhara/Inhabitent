@@ -26,6 +26,7 @@ get_header(); ?>
    $args = array( 
 		'posts_per_page'   => 3,
 		'orderby'          => 'date',
+		'order'            => 'DESC',
 		'post_type'        => 'post',
 		'post_status'      => 'publish',
 		'suppress_filters' => true 
@@ -39,9 +40,9 @@ get_header(); ?>
 	<?php the_post_thumbnail( 'medium' ); ?>
 <?php endif; ?>
 
-<!-- add comments  -->
+<!-- add comments -->
 
-<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+<h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h2>
 
 <?php endforeach; wp_reset_postdata(); ?>
 

@@ -37,7 +37,7 @@
 					</div>	
 					<img class="logo-text" src="<?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-text.svg" alt="Inhabitent Camping Supply Co.">
 				</div><!-- .site-info -->
-				<div class="uppercase">Copyright © 2016 Inhabitent</div>	
+				<div class="copyright">Copyright © 2016 Inhabitent</div>	
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 

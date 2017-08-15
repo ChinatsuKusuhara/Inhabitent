@@ -227,14 +227,14 @@ th {
 @font-face {
   font-family: 'Novecento';
   src: url("../../asset/fonts/Novecentosanswide-DemiBold.eot");
-  src: url("../../asset/fonts/Novecentosanswide-DemiBold.eot?#iefix") format("embedded-opentype"), url("Novecentosanswide-DemiBold.woff2") format("woff2"), url("Novecentosanswide-DemiBold.woff") format("woff"), url("Novecentosanswide-DemiBold.ttf") format("truetype"), url("Novecentosanswide-DemiBold.svg#Novecentosanswide-DemiBold") format("svg");
+  src: url("../../asset/fonts/Novecentosanswide-DemiBold.eot?#iefix") format("embedded-opentype"), url("../../Novecentosanswide-DemiBold.woff2") format("woff2"), url("../../Novecentosanswide-DemiBold.woff") format("woff"), url("../../Novecentosanswide-DemiBold.ttf") format("truetype"), url("../../Novecentosanswide-DemiBold.svg#Novecentosanswide-DemiBold") format("svg");
   font-weight: 600;
   font-style: normal; }
 
 @font-face {
   font-family: 'Novecento';
   src: url("../../asset/fonts/Novecentosanswide-Normal.eot");
-  src: url("../../asset/fonts/Novecentosanswide-Normal.eot?#iefix") format("embedded-opentype"), url("Novecentosanswide-Normal.woff2") format("woff2"), url("Novecentosanswide-Normal.woff") format("woff"), url("Novecentosanswide-Normal.ttf") format("truetype"), url("Novecentosanswide-Normal.svg#Novecentosanswide-Normal") format("svg");
+  src: url("../../asset/fonts/Novecentosanswide-Normal.eot?#iefix") format("embedded-opentype"), url("../../Novecentosanswide-Normal.woff2") format("woff2"), url("../../Novecentosanswide-Normal.woff") format("woff"), url("../../Novecentosanswide-Normal.ttf") format("truetype"), url("../../Novecentosanswide-Normal.svg#Novecentosanswide-Normal") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -733,13 +733,27 @@ object {
   background-size: cover; }
 
 .logo-tent-white {
-  height: 60px; }
+  height: 60px;
+  height: 33px;
+  margin-left: 10rem;
+  margin-top: 1em; }
 
 .main-navigation {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between; }
+  .main-navigation .menu {
+    position: relative;
+    margin-right: 10rem;
+    margin-top: 1em;
+    font-family: "Novecento", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    text-transform: uppercase; }
+    .main-navigation .menu .menu-item {
+      padding-left: 1.5rem; }
 
 /*--------------------------------------------------------------
 # 404
@@ -782,7 +796,11 @@ object {
 .copyright {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
-      align-self: center; }
+      align-self: center;
+  text-transform: uppercase;
+  font-family: "Novecento", sans-serif;
+  font-weight: normal;
+  font-style: normal; }
 
 li,
 .media a {
