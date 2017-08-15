@@ -22,4 +22,18 @@ get_header(); ?>
 		</div>
 	</div><!-- #primary -->
 
+	<?php
+   $args = array( 
+		'posts_per_page'   => 3,
+		'orderby'          => 'date',
+		'post_type'        => 'post',
+		'post_status'      => 'publish',
+		'suppress_filters' => true 
+	);
+   $product_posts = get_posts( $args ); // returns an array of posts
+?>
+<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+<?php endforeach; wp_reset_postdata(); ?>
+
 <?php get_footer(); ?>
