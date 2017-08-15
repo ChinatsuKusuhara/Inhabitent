@@ -12,7 +12,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+		<link href="https://www.fonts.com/font/synthview/novecento-sans/wide-demibold" rel="stylesheet">
+		<link href="https://www.fonts.com/font/synthview/novecento-sans/wide-normal" rel="stylesheet">
 	<?php wp_head(); ?>
 	</head>
 

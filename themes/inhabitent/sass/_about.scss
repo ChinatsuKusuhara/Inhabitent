@@ -1,0 +1,22 @@
+.custom-hero {
+  height: 100vh;
+  background-size: cover;
+
+    h1 {
+      color: $color_white;
+      text-transform: uppercase;
+      padding-top: 6em;
+      font-size: 3em;
+    }
+}
+.entry-title {
+  text-align: center;
+
+    h2 {
+     font-size: 2rem;
+
+      .p1 {
+        font-family: serif;
+      }
+   }
+}

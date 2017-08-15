@@ -275,7 +275,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -330,7 +330,9 @@ big {
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-family: "Merriweather", serif;
+  font-size: 16px; }
 
 *,
 *:before,
@@ -814,3 +816,19 @@ li,
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto; }
+
+.custom-hero {
+  height: 100vh;
+  background-size: cover; }
+  .custom-hero h1 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 6em;
+    font-size: 3em; }
+
+.entry-title {
+  text-align: center; }
+  .entry-title h2 {
+    font-size: 2rem; }
+    .entry-title h2 .p1 {
+      font-family: serif; }
