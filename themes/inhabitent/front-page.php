@@ -32,8 +32,17 @@ get_header(); ?>
 	);
    $product_posts = get_posts( $args ); // returns an array of posts
 ?>
+
 <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+
+<?php if (has_post_thumbnail() ) : ?>	
+	<?php the_post_thumbnail( 'medium' ); ?>
+<?php endif; ?>
+
+<!-- add comments  -->
+
 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
 <?php endforeach; wp_reset_postdata(); ?>
 
 <?php get_footer(); ?>
