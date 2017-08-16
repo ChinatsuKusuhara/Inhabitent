@@ -4,10 +4,24 @@
   margin-left: auto;
   width: 1120px;
 }
+
 .blog .content-area {
   border-right: $border-solid;
   padding-right: 5%;
   width: 1120px;
   display: flex;
   margin: 0 auto;
+}
+h2.widget-title {
+  font-family: $font_secondary_wide;  
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5em;
+  letter-spacing: 2.5px;
+
+    // span.day-of-the-week {
+    //   font-family: $font_main;
+    //   font-weight: bold;
+    //   font-style: normal;
+    // }  **********DOUBLE CHECK 
 }

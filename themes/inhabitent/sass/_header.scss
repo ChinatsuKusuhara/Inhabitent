@@ -4,15 +4,16 @@
   margin-left: 10rem;
   margin-top: 1em;
 }
+
 .main-navigation{
   display: flex;
   justify-content: space-between;
+  
 
   .menu {
-    position: relative;
     margin-right: 10rem;
     margin-top: 1em;
-    font-family: $font__secondary;
+    font-family: $font_secondary_norm;
     font-weight: normal;
     font-style: normal;
     font-size: 1em;
@@ -23,7 +24,7 @@
     }
   }
 }
+
 .logo-circle {
- // position: absolute;
-  // margin-left: 560px;
+  position: absolute;
 }
