@@ -2,30 +2,36 @@
   background-image: url('../../asset/dark-wood.png');
   padding-top: 4%;
   padding-bottom: 2%;
-  color: $color__background-body;
   
     .site-info {
       display: flex;
       justify-content: space-around;   
       
         h3 {
-          color: $color_orange;          
+          color: $color_orange; 
+          font-size: 19px;         
         }
     }
 }   
+p .bold {
+  color: $color_white;
+  font-family: $font__main;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+
+  // NOT WORKNG
+  // .bold {
+  //   font-weight: bold;
+  //   font-style: normal;
+  // }
+}
 .uppercase{
   text-transform: uppercase;
   font-family: $font__secondary;
 	font-weight: 600;
   font-style: normal;
   letter-spacing: 2px;
-
-  // FIX THIS
-  //   p span .bold{
-  //     font-family: $font__main;  
-  //     font-weight: bold;
-  //     font-style: normal;
-  //   }
 }
 .copyright {  //debug this! 
   align-self: center;

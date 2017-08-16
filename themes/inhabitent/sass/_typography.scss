@@ -2,6 +2,14 @@
 # Typography
 --------------------------------------------------------------*/
 
+* {
+	font-family: $font__main;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	color: $color__text-main;
+}
+
 body,
 button,
 input,

@@ -6,7 +6,6 @@
  */
 
 get_header(); ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -17,9 +16,9 @@ get_header(); ?>
 			<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
-		<div class="hero-banner">
-			<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-full.svg" alt="Inhabitent Camping Supply Co.">
-		</div>
+	<div class="hero-banner">
+		<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-full.svg" alt="Inhabitent Camping Supply Co.">
+	</div>
 	</div><!-- #primary -->
 
 	<?php

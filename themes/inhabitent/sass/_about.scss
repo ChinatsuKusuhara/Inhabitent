@@ -1,29 +1,30 @@
 .custom-hero {
   height: 100vh;
   background-size: cover;
-
-    h1 {
-      color: $color_white;
-      text-transform: uppercase;
-      padding-top: 6em;  //try to use margin instead 
-      font-size: 3em;
-      font-family: $font__secondary;
-      font-weight: 600;
-      font-style: normal;
-      letter-spacing: 2px;
-    }
+ 
+  h1 {
+    color: $color_white;
+    text-transform: uppercase;
+    padding-top: 6em;
+    font-size: 3em;
+    font-family: $font__secondary;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
 }
+
 .entry-title {
   text-align: center;
-
-    h2 {
-     font-size: 2rem;
-     font-family: $font__secondary;
-     font-weight: 600;
-     font-style: normal;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-   }
+  
+  h2 {
+    font-size: 2rem;
+    font-family: $font__secondary;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
 }
 
 .s1 {

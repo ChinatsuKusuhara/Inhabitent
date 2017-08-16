@@ -3,12 +3,9 @@
 --------------------------------------------------------------*/
 
 html {
+	margin: 0 auto;
 	box-sizing: border-box;
 	@include font-size(1);
-	font-family: $font__main;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 16px;
 }
 
 *,

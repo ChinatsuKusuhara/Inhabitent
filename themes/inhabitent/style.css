@@ -269,6 +269,13 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+* {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #404040; }
+
 body,
 button,
 input,
@@ -328,13 +335,10 @@ big {
 # Elements
 --------------------------------------------------------------*/
 html {
+  margin: 0 auto;
   box-sizing: border-box;
   font-size: 16px;
-  font-size: 1rem;
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 *,
 *:before,
@@ -730,7 +734,11 @@ object {
 .hero-banner {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url("../../asset/home-hero.jpg");
   height: 100vh;
-  background-size: cover; }
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 .logo-tent-white {
   height: 60px;
@@ -776,15 +784,22 @@ object {
 .site-footer {
   background-image: url("../../asset/dark-wood.png");
   padding-top: 4%;
-  padding-bottom: 2%;
-  color: #fff; }
+  padding-bottom: 2%; }
   .site-footer .site-info {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
     .site-footer .site-info h3 {
-      color: #d99054; }
+      color: #d99054;
+      font-size: 19px; }
+
+p .bold {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px; }
 
 .uppercase {
   text-transform: uppercase;
