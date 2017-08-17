@@ -729,33 +729,29 @@ object {
 .hero-banner {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url("../../asset/home-hero.jpg");
   height: 100vh;
-  background-size: cover; }
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 .logo-tent-white {
-  height: 60px;
-  height: 33px;
-  margin-left: 10rem;
-  margin-top: 1em;
-  color: #248A83;
-  border-bottom: none; }
+  height: 33px; }
 
-.main-navigation {
+.header-background {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding-top: .9rem; }
+
+.header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  border-bottom: 1px solid #e1e1e1; }
-  .main-navigation .menu {
-    margin-right: 10rem;
-    margin-top: 1em;
-    font-family: "Novecento sans wide Normal", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1em;
-    text-transform: uppercase;
-    color: #248A83; }
-    .main-navigation .menu .menu-item {
-      padding-left: 1.5rem; }
+  height: 50px;
+  width: 1120px;
+  margin: 0 auto; }
 
 /*--------------------------------------------------------------
 # 404
@@ -919,7 +915,3 @@ div.container {
 .s1 {
   line-height: 1.75;
   width: 50rem; }
-
-.logo-circle {
-  margin-left: 35rem;
-  margin-top: 13rem; }

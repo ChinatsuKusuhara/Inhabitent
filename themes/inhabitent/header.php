@@ -25,10 +25,16 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<a href="http://localhost:8888/inhabitent"><img class="logo-tent-white" src= "<?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-tent-white.svg"></a>
+					<div class="header-background">
+						<div class="header">
+							<a href="<?php echo esc_url( home_url('/') ); ?>"><img class="logo-tent-white" src= "<?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-tent-white.svg"></a>
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+					<?php get_search_form(); ?>
 				</nav><!-- #site-navigation -->
+						</div>
+					</div>
+			</div>
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
