@@ -831,20 +831,16 @@ li,
   margin-left: auto;
   width: 1120px; }
 
-.blog .content-area {
-  border-right: 1px solid #e1e1e1;
-  padding-right: 5%;
-  width: 1120px;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 auto; }
-
 h2.widget-title {
   font-family: "Novecento sans wide", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 1.5em;
   letter-spacing: 2.5px; }
+  h2.widget-title span.day-of-the-week {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-style: normal; }
 
 .page-id-11 .site-content {
   display: -ms-flexbox;
