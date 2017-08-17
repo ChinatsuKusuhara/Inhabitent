@@ -3,12 +3,14 @@
   height: 33px;
   margin-left: 10rem;
   margin-top: 1em;
+  color: $color_green;
+  border-bottom: none;
 }
 
 .main-navigation{
   display: flex;
   justify-content: space-between;
-  
+  border-bottom: $border-solid;
 
   .menu {
     margin-right: 10rem;
@@ -18,13 +20,11 @@
     font-style: normal;
     font-size: 1em;
     text-transform: uppercase;
+    color: $color_green;
 
     .menu-item{
-      padding-left: 1.5rem;       
+      padding-left: 1.5rem;   
     }
   }
 }
 
-.logo-circle {
-  position: absolute;
-}

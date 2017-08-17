@@ -1,3 +1,30 @@
+
+// .map {
+//   position:absolute;  
+//   height: 100%;
+//   width: 45%;
+// }
+.entry-title {
+  text-transform: uppercase;
+  font-family: $font_secondary_wide;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 37px;
+}
+h2 {
+  font-family: $font_secondary_wide;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 37px;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: uppercase;
+}
+p.contact-para {
+  width: 750px;
+  word-spacing: 1px;
+}
 .page-id-11 .site-content {
   display: flex;
   margin-right: auto;
@@ -10,4 +37,7 @@
   width: 1120px;
   display: flex;
   margin: 0 auto;
+}
+.required {
+  color: $color_orange;
 }
