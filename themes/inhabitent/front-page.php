@@ -61,6 +61,16 @@ get_header(); ?>
 			<?php if (has_post_thumbnail() ) : ?>	
 				<?php the_post_thumbnail( 'medium' ); ?>
 			<?php endif; ?>
+			
+			<div class="journal-post-info">
+				<p>
+					<?php the_date(); ?>
+					<?php $comments_count = wp_count_comments();
+					echo $comments_count->approved . "Comments" ?>
+				</p>
+			</div>
+
+<!-- add comments -->
 
 		<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
 
