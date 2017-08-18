@@ -848,6 +848,28 @@ p .bold {
   font-style: normal;
   letter-spacing: 2px; }
 
+li, i,
+.media a {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none; }
+  li .fa, i .fa,
+  .media a .fa {
+    padding-right: 10px;
+    line-height: 2rem; }
+
+.hour-info p {
+  color: #fff; }
+  .hour-info p span.bold {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2rem; }
+
+.logo-text {
+  width: 15rem;
+  margin-bottom: 8rem; }
+
 div.copyright {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -857,15 +879,6 @@ div.copyright {
   font-weight: normal;
   font-style: normal;
   color: #fff; }
-
-li,
-.media a {
-  list-style-type: none;
-  text-decoration: none; }
-
-.logo-text {
-  width: 15rem;
-  margin-bottom: 8rem; }
 
 .blog .site-content {
   display: -ms-flexbox;

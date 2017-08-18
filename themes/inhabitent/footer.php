@@ -29,13 +29,17 @@
 								</ul>
 							</div>	
 					</div>
-					<div class-="business-hours">
-						<h3 class="uppercase">Business Hours</h3>
-						<p><span class="bold">Monday-Friday: </span>9am to 5pm</p>
-						<p><span class="bold">Saturday: </span>10am to 2pm</p>
-						<p><span class="bold">Sunday: </span>Closed</p>
-					</div>	
-					<img class="logo-text" src="<?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-text.svg" alt="Inhabitent Camping Supply Co.">
+					<div class="business-hours">	
+						<div class="hours">
+							<h3 class="uppercase">Business Hours</h3>
+							<div class="hour-info">
+								<p class="weekly-hours"><span class="bold">Monday-Friday: </span>9am to 5pm</p>
+								<p class="weekly-hours"><span class="bold">Saturday: </span>10am to 2pm</p>
+								<p class="weekly-hours"><span class="bold">Sunday: </span>Closed</p>
+							</div>
+						</div>	
+					</div>
+				<img class="logo-text" src="<?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-text.svg" alt="Inhabitent Camping Supply Co.">
 				</div><!-- .site-info -->
 				<div class="copyright">Copyright © 2016 Inhabitent</div>	
 			</footer><!-- #colophon -->

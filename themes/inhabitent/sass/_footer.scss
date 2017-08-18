@@ -13,6 +13,7 @@
         }
     }
 }   
+
 p .bold {
   color: $color_white;
   font-family: $font_main;
@@ -26,6 +27,7 @@ p .bold {
   //   font-style: normal;
   // }
 }
+
 .uppercase{
   text-transform: uppercase;
   font-family: $font_secondary_wide;
@@ -33,6 +35,35 @@ p .bold {
 	font-style: normal;
   letter-spacing: 2px;
 }
+
+li,i, 
+.media a{
+  color: $color_white;
+  list-style-type: none;  
+  text-decoration: none;
+
+  .fa {
+    padding-right: 10px;
+    line-height: 2rem;
+  }
+}
+
+.hour-info p {
+  color: $color_white;
+
+  span.bold {
+  	font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
+
+.logo-text {
+  width: 15rem;
+  margin-bottom: 8rem;
+}
+
 div.copyright {  //debug this! 
   align-self: center;
   text-transform: uppercase;
@@ -40,13 +71,4 @@ div.copyright {  //debug this!
   font-weight: normal;
   font-style: normal;
   color: $color_white;
-}
-li, 
-.media a{
-  list-style-type: none;  
-  text-decoration: none;
-}
-.logo-text {
-  width: 15rem;
-  margin-bottom: 8rem;
 }
