@@ -63,8 +63,13 @@ add_filter( 'logo_headertitle', 'inhabitent_login_title');
 add_action( 'wp_enqueue_scripts', 'inhabitent_dynamic_css' );
 
 /* ARCHIVE for DO EAT SLEEP and WEAR */ 
-function archive_product_title( $title ) {
-	if(is_post_type_archive('product_type')) {
-		$title = 'Shop Stuff';
-	}
-}
+// function archive_product_title( $title ) {
+// 	if(is_post_type_archive('product')) {
+// 		$title = 'Shop Stuff';
+// 	} 
+// 	elseif(is_tax()){
+// 		$title = single_term_title('', false);
+// 	}
+// 	return $title;
+// }
+// add_filter('get_the_archive_title', 'archive_product_title');
