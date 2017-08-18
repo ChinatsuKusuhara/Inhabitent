@@ -56,11 +56,10 @@ get_header(); ?>
 				$product_posts = get_posts( $args ); // returns an array of posts
 			?>
 
-				<div class="journal-content-post">
 					<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
-
+				
+				<div class="journal-content-post">
 							<?php the_post_thumbnail( 'medium' ); ?>
-						
 						<div class="journal-post-info">
 							<p>
 								<?php the_date(); ?>
@@ -70,9 +69,8 @@ get_header(); ?>
 								<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
 									<a class="read-more" href="<?php the_permalink(); ?>">Read Entry</a>
 						</div>
-
-					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
+					<?php endforeach; wp_reset_postdata(); ?>
 			</div>
 	</section>
 

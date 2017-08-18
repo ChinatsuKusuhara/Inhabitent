@@ -757,10 +757,17 @@ object {
     width: 70px; }
 
 /* Inhabitent Journal */
-.home .journal-post-page {
+.journal-post-page {
   display: -ms-flexbox;
   display: flex;
-  margin: 0 5%; }
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0; }
+
+.journal-post-info {
+  padding: .75rem; }
 
 .logo-tent-white {
   height: 33px; }
