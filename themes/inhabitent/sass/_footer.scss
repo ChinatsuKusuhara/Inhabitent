@@ -35,11 +35,13 @@ li,i,
   color: $color_white;
   list-style-type: none;  
   text-decoration: none;
+  
 
   a .fa {
     padding-right: 10px;
     color: $color_white;
     line-height: 2rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -59,7 +61,7 @@ li,i,
   margin-bottom: 8rem;
 }
 
-div.copyright {  //debug this! 
+div.copyright {  
   align-self: center;
   text-transform: uppercase;
   font-family: $font_secondary_norm;
