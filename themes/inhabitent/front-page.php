@@ -41,39 +41,39 @@ get_header(); ?>
 
 	<section class="journal-home container">
 		<h2>Inhabitent Journal</h2>
+			<div class="journal-post-page">
+				<?php
+				$args = array( 
+					'posts_per_page'   => 3,
+					'orderby'          => 'date',
+					'order'            => 'DESC',
+					'post_type'        => 'post',
+					'post_status'      => 'publish',
+					'suppress_filters' => true 
+				);
+				?>
 			<?php
-			$args = array( 
-				'posts_per_page'   => 3,
-				'orderby'          => 'date',
-				'order'            => 'DESC',
-				'post_type'        => 'post',
-				'post_status'      => 'publish',
-				'suppress_filters' => true 
-			);
+				$product_posts = get_posts( $args ); // returns an array of posts
 			?>
-		<?php
-			$product_posts = get_posts( $args ); // returns an array of posts
-		?>
 
-		<ul>
-			<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+				<div class="journal-content-post">
+					<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
 
-				<?php if (has_post_thumbnail() ) : ?>	
-					<?php the_post_thumbnail( 'medium' ); ?>
-				<?php endif; ?>
-				
-				<div class="journal-post-info">
-					<p>
-						<?php the_date(); ?>
-						<?php $comments_count = wp_count_comments();
-						echo $comments_count->approved . "Comments" ?>
-					</p>
-						<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
-							<a class="read-more" href="<?php the_permalink(); ?>">Read Entry</a>
+							<?php the_post_thumbnail( 'medium' ); ?>
+						
+						<div class="journal-post-info">
+							<p>
+								<?php the_date(); ?>
+								<?php $comments_count = wp_count_comments();
+								echo $comments_count->approved . "Comments" ?>
+							</p>
+								<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
+									<a class="read-more" href="<?php the_permalink(); ?>">Read Entry</a>
+						</div>
+
+					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
-
-			<?php endforeach; wp_reset_postdata(); ?>
-		</ul>
+			</div>
 	</section>
 
 <?php get_footer(); ?>
