@@ -22,9 +22,16 @@ get_header(); ?>
 	<section class="shop-stuff-home container">
 		<h2>Shop Stuff</h2>
 		<div class="shop-section">
-			<?php $terms = get_terms( 'product_type' );
+			<?php $terms = get_terms( 'product' );
 				foreach ( $terms as $term ) {
-					?>
+			?>
+			<?php 
+				$url = get_term_link($term->slug, 'product');
+			?>
+			<div class="shop-stuff-content">
+				<img src="<?php echo get_template_directory_uri(); ?>/asset/product-type-icons/<?php echo $term->slug; ?>.svg">
+				<p><?php echo $term->description ?></p>
+			</div>
 					<?php
 				}
 					?>
