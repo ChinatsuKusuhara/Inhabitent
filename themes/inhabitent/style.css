@@ -947,7 +947,7 @@ p.contact-para {
 
 .custom-hero {
   height: 100vh; }
-  .custom-hero h1.entry-title {
+  .custom-hero .page-template .entry-title {
     position: absolute;
     color: #fff;
     text-transform: uppercase;
@@ -978,3 +978,28 @@ div.container {
 .s1 {
   line-height: 1.75;
   width: 50rem; }
+
+.shop-stuff-content img {
+  position: relative;
+  margin-left: 5.95rem;
+  margin-top: 1rem; }
+
+.shop-stuff-content p {
+  text-align: center;
+  font-size: 1.063rem;
+  line-height: 1.75;
+  padding-left: 4px;
+  padding-right: 4px; }
+
+a.shop-button {
+  text-decoration: none;
+  background-color: #248A83;
+  padding: 11px 20px;
+  font-size: 0.9em;
+  color: #fff;
+  font-family: "Novecento sans wide Normal", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-left: 0 auto;
+  position: relative; }

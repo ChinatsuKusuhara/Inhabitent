@@ -1,4 +1,31 @@
-// .logo-circle {
-//   margin-left: 35rem;
-//   margin-top: 13rem;
-// }
+//Shop stuff category
+.shop-stuff-content img{
+  position: relative;
+  margin-left: 5.95rem;
+  margin-top: 1rem;
+}
+
+.shop-stuff-content p {
+  text-align: center;
+  font-size: 1.063rem;
+  line-height: 1.75;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+a.shop-button {
+  text-decoration: none;
+  background-color: $color_green;
+  padding: 11px 20px;
+  font-size: 0.9em;
+  color: $color_white;
+  font-family: $font_secondary_norm;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-left: 0 auto;
+  position: relative;
+}
+
+
+
