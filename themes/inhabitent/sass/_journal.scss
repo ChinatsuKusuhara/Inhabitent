@@ -25,3 +25,14 @@ h2.widget-title {
     }  
 }
 
+.blog,
+.type-post .entry-header{
+  position: relative;
+}
+.type-post .entry-title {
+  position: absolute;
+  top: 0;
+}
+.type-post .entry-meta {
+  position: absolute;
+}

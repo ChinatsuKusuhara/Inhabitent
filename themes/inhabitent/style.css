@@ -893,6 +893,17 @@ h2.widget-title {
     font-weight: bold;
     font-style: normal; }
 
+.blog,
+.type-post .entry-header {
+  position: relative; }
+
+.type-post .entry-title {
+  position: absolute;
+  top: 0; }
+
+.type-post .entry-meta {
+  position: absolute; }
+
 .entry-title {
   text-transform: uppercase;
   font-family: "Novecento sans wide", sans-serif;
