@@ -738,7 +738,22 @@ object {
 .logo-tent-white {
   height: 33px; }
 
-.header-background {
+.main-navigation {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .main-navigation .menu {
+    font-family: "Novecento sans wide Normal", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    text-transform: uppercase; }
+    .main-navigation .menu .menu-item {
+      padding-left: 1.5rem; }
+
+.home .header-background {
+  border-bottom: 1px solid #e1e1e1;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -747,11 +762,12 @@ object {
 .header {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
   height: 50px;
   width: 1120px;
   margin: 0 auto; }
+
+.menu-main-menu-container {
+  margin-left: 465px; }
 
 /*--------------------------------------------------------------
 # 404
