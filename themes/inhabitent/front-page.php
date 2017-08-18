@@ -55,27 +55,25 @@ get_header(); ?>
 			$product_posts = get_posts( $args ); // returns an array of posts
 		?>
 
-	<ul>
-		<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+		<ul>
+			<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
 
-			<?php if (has_post_thumbnail() ) : ?>	
-				<?php the_post_thumbnail( 'medium' ); ?>
-			<?php endif; ?>
-			
-			<div class="journal-post-info">
-				<p>
-					<?php the_date(); ?>
-					<?php $comments_count = wp_count_comments();
-					echo $comments_count->approved . "Comments" ?>
-				</p>
-			</div>
+				<?php if (has_post_thumbnail() ) : ?>	
+					<?php the_post_thumbnail( 'medium' ); ?>
+				<?php endif; ?>
+				
+				<div class="journal-post-info">
+					<p>
+						<?php the_date(); ?>
+						<?php $comments_count = wp_count_comments();
+						echo $comments_count->approved . "Comments" ?>
+					</p>
+						<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
+							<a class="read-more" href="<?php the_permalink(); ?>">Read Entry</a>
+				</div>
 
-<!-- add comments -->
-
-		<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
-
-		<?php endforeach; wp_reset_postdata(); ?>
-	</ul>
-		</section>
+			<?php endforeach; wp_reset_postdata(); ?>
+		</ul>
+	</section>
 
 <?php get_footer(); ?>
