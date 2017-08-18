@@ -8,9 +8,9 @@
 get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<div class="hero-banner">
-		<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-full.svg" alt="Inhabitent Camping Supply Co.">
-	</div>
+		<section class="hero-banner">
+			<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-full.svg" alt="Inhabitent Camping Supply Co.">
+		</section>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php endwhile; // End of the loop. ?>
@@ -19,23 +19,37 @@ get_header(); ?>
 
 	</div><!-- #primary -->
 
-	<?php
-   $args = array( 
-		'posts_per_page'   => 3,
-		'orderby'          => 'date',
-		'order'            => 'DESC',
-		'post_type'        => 'post',
-		'post_status'      => 'publish',
-		'suppress_filters' => true 
-	);
-   $product_posts = get_posts( $args ); // returns an array of posts
-?>
+	<section class="shop-stuff-home container">
+		<h2>Shop Stuff</h2>
+		<div class="shop-section">
+			<?php $terms = get_terms( 'product_type' );
+				foreach ( $terms as $term ) {
+					?>
+					<?php
+				}
+					?>
+		</div>
+	</section>
 
-<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+	<section class="journal-home">
+			<?php
+			$args = array( 
+				'posts_per_page'   => 3,
+				'orderby'          => 'date',
+				'order'            => 'DESC',
+				'post_type'        => 'post',
+				'post_status'      => 'publish',
+				'suppress_filters' => true 
+			);
+			$product_posts = get_posts( $args ); // returns an array of posts
+		?>
 
-<?php if (has_post_thumbnail() ) : ?>	
-	<?php the_post_thumbnail( 'medium' ); ?>
-<?php endif; ?>
+		<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+
+		<?php if (has_post_thumbnail() ) : ?>	
+			<?php the_post_thumbnail( 'medium' ); ?>
+		<?php endif; ?>
+		</section>
 
 <!-- add comments -->
 
