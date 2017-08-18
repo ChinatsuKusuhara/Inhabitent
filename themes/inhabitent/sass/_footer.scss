@@ -20,12 +20,6 @@ p .bold {
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
-
-  // NOT WORKNG
-  // .bold {
-  //   font-weight: bold;
-  //   font-style: normal;
-  // }
 }
 
 .uppercase{
@@ -42,8 +36,9 @@ li,i,
   list-style-type: none;  
   text-decoration: none;
 
-  .fa {
+  a .fa {
     padding-right: 10px;
+    color: $color_white;
     line-height: 2rem;
   }
 }
@@ -71,4 +66,7 @@ div.copyright {  //debug this!
   font-weight: normal;
   font-style: normal;
   color: $color_white;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
 }

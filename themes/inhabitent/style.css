@@ -853,9 +853,10 @@ li, i,
   color: #fff;
   list-style-type: none;
   text-decoration: none; }
-  li .fa, i .fa,
-  .media a .fa {
+  li a .fa, i a .fa,
+  .media a a .fa {
     padding-right: 10px;
+    color: #fff;
     line-height: 2rem; }
 
 .hour-info p {
@@ -872,13 +873,17 @@ li, i,
 
 div.copyright {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
   text-transform: uppercase;
   font-family: "Novecento sans wide Normal", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #fff; }
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding-top: 2rem; }
 
 .blog .site-content {
   display: -ms-flexbox;
@@ -957,6 +962,9 @@ p.contact-para {
 
 .required {
   color: #d99054; }
+
+.contact-meta, i.fa {
+  color: #404040; }
 
 .custom-hero {
   height: 100vh; }
