@@ -756,6 +756,11 @@ object {
     height: 70px;
     width: 70px; }
 
+/* Inhabitent Journal */
+ul {
+  display: -ms-flexbox;
+  display: flex; }
+
 .logo-tent-white {
   height: 33px; }
 

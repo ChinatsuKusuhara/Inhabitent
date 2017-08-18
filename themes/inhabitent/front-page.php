@@ -39,7 +39,8 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<section class="journal-home">
+	<section class="journal-home container">
+		<h2>Inhabitent Journal</h2>
 			<?php
 			$args = array( 
 				'posts_per_page'   => 3,
@@ -49,20 +50,22 @@ get_header(); ?>
 				'post_status'      => 'publish',
 				'suppress_filters' => true 
 			);
+			?>
+		<?php
 			$product_posts = get_posts( $args ); // returns an array of posts
 		?>
 
+	<ul>
 		<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
 
-		<?php if (has_post_thumbnail() ) : ?>	
-			<?php the_post_thumbnail( 'medium' ); ?>
-		<?php endif; ?>
+			<?php if (has_post_thumbnail() ) : ?>	
+				<?php the_post_thumbnail( 'medium' ); ?>
+			<?php endif; ?>
+
+		<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
+
+		<?php endforeach; wp_reset_postdata(); ?>
+	</ul>
 		</section>
-
-<!-- add comments -->
-
-<h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h2>
-
-<?php endforeach; wp_reset_postdata(); ?>
 
 <?php get_footer(); ?>
