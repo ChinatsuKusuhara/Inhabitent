@@ -726,6 +726,11 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
+
 .hero-banner {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url("../../asset/home-hero.jpg");
   height: 100vh;
@@ -734,6 +739,22 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center; }
+
+/* Shop Stuff */
+.shop-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.home .shop-stuff-content {
+  border: 1px solid #e1e1e1;
+  -ms-flex: 0 1 23.5%;
+      flex: 0 1 23.5%;
+  border-top-width: 5px; }
+  .home .shop-stuff-content img {
+    height: 70px;
+    width: 70px; }
 
 .logo-tent-white {
   height: 33px; }
