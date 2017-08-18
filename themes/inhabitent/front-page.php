@@ -59,12 +59,12 @@ get_header(); ?>
 					<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
 				
 				<div class="journal-content-post">
-							<?php the_post_thumbnail( 'medium' ); ?>
+							<?php the_post_thumbnail( '' ); ?>
 						<div class="journal-post-info">
 							<p>
 								<?php the_date(); ?>
 								<?php $comments_count = wp_count_comments();
-								echo $comments_count->approved . "Comments" ?>
+								echo $comments_count->approved . "Comments" ?>  <!-- EDIT -->
 							</p>
 								<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
 									<a class="read-more" href="<?php the_permalink(); ?>">Read Entry</a>
