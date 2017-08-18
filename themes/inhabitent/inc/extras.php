@@ -61,3 +61,10 @@ add_filter( 'logo_headertitle', 'inhabitent_login_title');
 	wp_add_inline_style( 'tent-style', $hero_css );
 }
 add_action( 'wp_enqueue_scripts', 'inhabitent_dynamic_css' );
+
+/* ARCHIVE for DO EAT SLEEP and WEAR */ 
+function archive_product_title( $title ) {
+	if(is_post_type_archive('product_type')) {
+		$title = 'Shop Stuff';
+	}
+}
