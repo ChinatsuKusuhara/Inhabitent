@@ -902,7 +902,9 @@ h2.widget-title {
   top: 0; }
 
 .type-post .entry-meta {
-  position: absolute; }
+  position: absolute;
+  bottom: 0;
+  right: 0; }
 
 .entry-title {
   text-transform: uppercase;
