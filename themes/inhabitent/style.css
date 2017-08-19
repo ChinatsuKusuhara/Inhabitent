@@ -772,19 +772,16 @@ object {
 .logo-tent-white {
   height: 33px; }
 
-.main-navigation {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-  .main-navigation .menu {
-    font-family: "Novecento sans wide Normal", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1em;
-    text-transform: uppercase; }
-    .main-navigation .menu .menu-item {
-      padding-left: 1.5rem; }
+.main-navigation,
+.menu {
+  font-family: "Novecento sans wide Normal", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  text-transform: uppercase; }
+  .main-navigation .menu-item,
+  .menu .menu-item {
+    padding-left: 1.5rem; }
 
 .home .header-background {
   border-bottom: 1px solid #e1e1e1;

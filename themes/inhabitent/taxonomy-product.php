@@ -16,7 +16,16 @@ get_header(); ?>
 				<?php
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
+
+				$term = get_term( 'product' ); ?>
+					<ul class="shop-stuff-items">
+						<?php foreach ($terms as $term): ?>
+						<?php $url = get_term_links($term->slug, 'product'); ?>
+
+						<a href="<?php echo $url ?>"><?php echo $term->name ?></a>
+						<?php endforeach; ?>
+					</ul>
+
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
