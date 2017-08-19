@@ -25,10 +25,12 @@ get_header(); ?>
 						<a href="<?php echo $url ?>"><?php echo $term->name ?></a>
 						<?php endforeach; ?>
 					</ul>
-
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
+				<div class="product-types">
+					
+				</div>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php
