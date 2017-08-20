@@ -73,3 +73,19 @@ function archive_product_title( $title ) {  //change to inhabitent_archive_produ
 	return $title;
 }
 add_filter('get_the_archive_title', 'archive_product_title');
+
+/* this will take in 16 and 4  images of the shop stuff*/ 
+function get_product_posts( $query ) {
+	if ( is_post_type_archive('product') && ! is_admin() && $query->is_main_query()){
+		if( is_post_type_archive( 'product_type' ) ) {
+			$query->set( 'posts_per_page', 16);
+			$query->set( 'orderby', 'title');
+			$query->set( 'order', 'ASC' );
+		} elseif ( is_tax('product_type')) {
+			$query->set( 'posts_per_page', 4 );
+			$query->set( 'orderby', 'title' );
+			$query->set( 'order', 'ASC' );
+		}
+	}
+}
+add_action( 'pre_get_posts', 'get_product_posts' );
