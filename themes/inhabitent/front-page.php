@@ -29,7 +29,7 @@ get_header(); ?>
 				$url = get_term_link($term->slug, 'product_type');
 			?>
 			<div class="shop-stuff-content">
-				<img src="<?php echo get_template_directory_uri(); ?>/asset/product-type-icons/<?php echo $term->slug; ?>.svg">
+				<img  src="<?php echo get_template_directory_uri(); ?>/asset/product-type-icons/<?php echo $term->slug; ?>.svg">
 				<p><?php echo $term->description ?></p>
 				<p><a href="<?php echo $url ?>" class="shop-button"><?php echo $term->name.'';?></a></p>
 			</div>
@@ -61,12 +61,12 @@ get_header(); ?>
 				<div class="journal-content-post">
 							<?php the_post_thumbnail( '' ); ?>
 						<div class="journal-post-info">
-							<p>
+							<p class="commented-dates">
 								<?php the_date(); ?>
 								<?php $comments_count = wp_count_comments();
-								echo $comments_count->approved . "Comments" ?>  <!-- EDIT -->
+								echo $comments_count->approved . "Comments" ?>
 							</p>
-								<h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
+								<h3><a class="post-title" href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
 									<a class="read-more" href="<?php the_permalink(); ?>">Read Entry</a>
 						</div>
 				</div>

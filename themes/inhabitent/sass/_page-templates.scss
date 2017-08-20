@@ -17,29 +17,3 @@
   justify-content: center;
 }
 
-/* Shop Stuff */
-.shop-section {
-  display: flex;
-  justify-content: space-between;
-}
-.home .shop-stuff-content {
-  border: 1px solid #e1e1e1;
-  flex: 0 1 23.5%;
-  border-top-width: 5px;
-    img {
-      height: 70px;
-      width: 70px;
-  }
-}
-
-/* Inhabitent Journal */
-.journal-post-page {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.journal-post-info {
-  padding: .75rem;
-}

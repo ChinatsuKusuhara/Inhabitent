@@ -740,35 +740,6 @@ object {
   -ms-flex-pack: center;
       justify-content: center; }
 
-/* Shop Stuff */
-.shop-section {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-
-.home .shop-stuff-content {
-  border: 1px solid #e1e1e1;
-  -ms-flex: 0 1 23.5%;
-      flex: 0 1 23.5%;
-  border-top-width: 5px; }
-  .home .shop-stuff-content img {
-    height: 70px;
-    width: 70px; }
-
-/* Inhabitent Journal */
-.journal-post-page {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0; }
-
-.journal-post-info {
-  padding: .75rem; }
-
 .logo-tent-white {
   height: 33px; }
 
@@ -883,6 +854,43 @@ div.copyright {
       justify-content: center;
   padding-top: 2rem; }
 
+/* Inhabitent Journal */
+.journal-post-page {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0; }
+
+.post-img {
+  height: 5rem; }
+
+.journal-post-info {
+  padding: .75rem;
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px; }
+  .journal-post-info p.commented-dates {
+    font-size: .75rem; }
+  .journal-post-info a.post-title {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Novecento sans wide", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #248A83;
+    font-size: 1.3em; }
+  .journal-post-info a.read-more {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px 20px;
+    border: 0.5px solid black;
+    font-family: "Novecento sans wide Normal", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black; }
+
 .blog .site-content {
   display: -ms-flexbox;
   display: flex;
@@ -922,6 +930,7 @@ h2.widget-title {
   bottom: 0;
   right: 0; }
 
+/* HOVER */
 .entry-title {
   text-transform: uppercase;
   font-family: "Novecento sans wide", sans-serif;
@@ -998,6 +1007,21 @@ div.container {
   line-height: 1.75;
   width: 50rem; }
 
+.shop-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.home .shop-stuff-content {
+  border: 1px solid #e1e1e1;
+  -ms-flex: 0 1 23.5%;
+      flex: 0 1 23.5%;
+  border-top-width: 5px; }
+  .home .shop-stuff-content img {
+    height: 70px;
+    width: 70px; }
+
 .shop-stuff-content img {
   position: relative;
   margin-left: 5.95rem;
@@ -1022,6 +1046,9 @@ a.shop-button {
   text-transform: uppercase;
   margin-left: 0 auto;
   position: relative; }
+
+.shop-button:hover {
+  color: grey; }
 
 /* SHOP STUFF */
 .archive .content-area {
