@@ -1,9 +1,20 @@
 /* SHOP STUFF */ 
-.post-type-archive .content-area {
+.archive .content-area {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.archive .boxes {
+  display: flex;
+  justify-content: space-around;
 }
 h1.page-title{
   text-align: center;
   text-transform: uppercase;
+}
+.archive .product-post{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1120px;
 }

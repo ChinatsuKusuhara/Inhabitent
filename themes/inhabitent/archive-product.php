@@ -1,6 +1,6 @@
 <?php
 /**
- * Template: Taxonomy Product
+ * Template: Archive Product
  *
  * @package RED_Starter_Theme
  */
