@@ -1031,9 +1031,3 @@ a.shop-button {
 h1.page-title {
   text-align: center;
   text-transform: uppercase; }
-
-.product {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
