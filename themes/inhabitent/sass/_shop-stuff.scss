@@ -6,15 +6,17 @@
 .archive .boxes {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
 }
 h1.page-title{
   text-align: center;
   text-transform: uppercase;
 }
-.archive .product-post{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 1120px;
+.product-post{
+  border: 1px solid #e1e1e1;
+  flex: 0 1 23%;
+  max-width: 23%;
 }

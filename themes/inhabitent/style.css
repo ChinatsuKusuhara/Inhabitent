@@ -1032,18 +1032,19 @@ a.shop-button {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
 
 h1.page-title {
   text-align: center;
   text-transform: uppercase; }
 
-.archive .product-post {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  margin: 0 auto;
-  width: 1120px; }
+.product-post {
+  border: 1px solid #e1e1e1;
+  -ms-flex: 0 1 23%;
+      flex: 0 1 23%;
+  max-width: 23%; }

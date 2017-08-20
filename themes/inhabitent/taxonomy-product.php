@@ -20,7 +20,7 @@ get_header(); ?>
 				$term = get_term( 'product_type' ); ?>
 					<ul class="shop-stuff-items">
 						<?php foreach ($terms as $term): ?>
-						<?php $url = get_term_links($term->slug, 'product_type'); ?>
+						<?php $url = get_term_link($term->slug, 'product_type'); ?>
 
 						<a href="<?php echo $url ?>"><?php echo $term->name ?></a>
 						<?php endforeach; ?>
