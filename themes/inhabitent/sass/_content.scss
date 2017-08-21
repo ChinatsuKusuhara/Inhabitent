@@ -41,9 +41,33 @@
 
 /* Comments */
 
+.comment-reply-title {
+	font-family: $font_secondary_wide;
+	font-weight: 600;
+	font-style: normal;
+	text-transform: uppercase;
+	color: $color_text-main;
+	font-size: 1.75rem;
+	letter-spacing: 1px;
+}
+
 .comment-content a {
 	word-wrap: break-word;
+	color: $color_green;
 }
 .bypostauthor {
 	display: block;
 }
+div.comment-content {
+	color: $color_text-main;
+
+	cite.fn {
+		font-weight: bold;
+		font-style: normal;
+	}
+}
+div.comment-metadata time {
+	color: $color_med_grey;
+
+} 
+

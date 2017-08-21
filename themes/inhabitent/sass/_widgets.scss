@@ -21,6 +21,9 @@
 	text-decoration: none;
 	color: $color_green;
 }
+.contact-meta i {
+	padding-right: 1em;	
+}
 .widget,
 	ul {
 		padding-left: 0;
@@ -38,4 +41,7 @@
 .widget-area {
 	margin-left: 5%;
 	width: 27%;
+}
+span.day-of-the-week {
+	font-weight: bold;
 }

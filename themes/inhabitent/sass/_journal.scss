@@ -7,14 +7,12 @@
   // margin-right: 0;
   //margin-bottom: 0;
 }
-
 .blog .site-content {
   display: flex;
   margin-right: auto;
   margin-left: auto;
   width: 1120px;
 }
-
 .blog .content-area {
   border-right: $border-solid;
   padding-right: 5%;
@@ -22,8 +20,8 @@
   display: flex;
   margin: 0 auto;
 }
-
 h2.widget-title {
+  margin-top: 4rem;
   font-family: $font_secondary_wide;  
   font-weight: 600;
   font-style: normal;
@@ -37,19 +35,28 @@ h2.widget-title {
       font-style: normal;
     }  
 }
-
 .blog,
 .type-post .entry-header{
   position: relative;
+}
+img.attachment-large {
+  width: 47rem;
+  padding-top: 4rem;
 }
 .type-post .entry-title {
   position: absolute;
   top: 0;
   background-color: $color_green;
   max-width: 75%;
-  margin-top: 2.25rem;
+  margin-top: 6.25rem;
   font-size: 2rem;
   padding: .75rem 1.5rem;
+  color: $color_white;
+  font-family: $font_secondary_wide;	
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+
   a {
     text-decoration: none;
     color: $color_white;
@@ -59,12 +66,54 @@ h2.widget-title {
   position: absolute;
   bottom: 0;
   right: 0;
+  background-color: $color_green;
+  color: $color_white;
+  padding: 2px 20px;
+  font-family: $font_secondary_norm;
+  font-weight: normal;
+  font-style: normal;
+  margin-right: 32px;
+  margin-bottom: 6px;  
+  text-transform: uppercase;
+
+  .comments-link a {
+    color: $color_white;
+    text-decoration: none;
+  }
 }
+span.cat-links {
+  margin-right: 1rem;
+  font-family: $font_secondary_norm;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
 
-/* HOVER */
-//EDIT
+  a {
+    text-decoration: none;
+    color: $color_green;
+  }
+}
+span.tags-links {
+  font-family: $font_secondary_norm;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
 
+  a {
+    text-decoration: none;
+    color: $color_green;
+  }
+}
+div a.moretag {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  font-family: $font_secondary_norm;
+  font-weight: normal;
+  font-style: normal;
+  font-size: .9rem;
+  line-height: 1;
+  padding: .75rem 1.5rem;
 
-// a.read-more:hover {
-//   color: $color_green;
-// }
+}
