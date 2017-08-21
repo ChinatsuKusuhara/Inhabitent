@@ -81,6 +81,12 @@ h2.widget-title {
 .type-post .entry-title {
   position: absolute;
   top: 0;
+  background-color: $color_green;
+  max-width: 75%;
+  a {
+    text-decoration: none;
+    color: $color_white;
+  }
 }
 .type-post .entry-meta {
   position: absolute;

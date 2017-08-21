@@ -1,9 +1,10 @@
 /* SHOP STUFF */ 
-.archive .content-area {
+.post-type-archive .content-area {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-.archive .boxes {
+
+.post-type-archive .boxes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -11,7 +12,8 @@
   margin-right: auto;
   width: 1120px;
 }
-h1.page-title{
+
+.post-type-archive .page-title{
   text-align: center;
   text-transform: uppercase;
   font-family: $font_secondary_wide;
@@ -20,6 +22,7 @@ h1.page-title{
   font-size: 2.25rem;
   letter-spacing: 1px;
 }
+
 .product-post{
   border: 1px solid #e1e1e1;
   flex: 0 1 23%;

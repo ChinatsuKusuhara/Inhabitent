@@ -935,7 +935,12 @@ h2.widget-title {
 
 .type-post .entry-title {
   position: absolute;
-  top: 0; }
+  top: 0;
+  background-color: #248A83;
+  max-width: 75%; }
+  .type-post .entry-title a {
+    text-decoration: none;
+    color: #fff; }
 
 .type-post .entry-meta {
   position: absolute;
@@ -1003,21 +1008,19 @@ p.contact-para {
 
 div.container {
   padding-left: 20rem; }
-  div.container h2 {
-    font-size: 2rem;
-    font-family: "Novecento sans wide", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; }
-
-.s1 {
-  line-height: 1.75;
-  width: 50rem; }
+  div.container div.entry-title {
+    width: 50rem; }
+    div.container div.entry-title h2.story-header {
+      font-size: 2rem;
+      font-family: "Novecento sans wide", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .shop-section {
   display: -ms-flexbox;
@@ -1063,11 +1066,11 @@ a.shop-button {
   color: grey; }
 
 /* SHOP STUFF */
-.archive .content-area {
+.post-type-archive .content-area {
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
-.archive .boxes {
+.post-type-archive .boxes {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -1078,7 +1081,7 @@ a.shop-button {
   margin-right: auto;
   width: 1120px; }
 
-h1.page-title {
+.post-type-archive .page-title {
   text-align: center;
   text-transform: uppercase;
   font-family: "Novecento sans wide", sans-serif;
@@ -1104,3 +1107,14 @@ h1.page-title {
       top: 50%;
       transform: translate(-15%, -1%);
       width: auto; }
+
+/* individual Shop page */
+.single-product .site-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
+
+.product-img {
+  width: 540px; }
+  .product-img img {
+    width: 100%; }
