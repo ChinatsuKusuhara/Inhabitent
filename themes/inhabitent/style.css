@@ -951,7 +951,7 @@ h2.widget-title {
   right: 0; }
 
 /* HOVER */
-.entry-title {
+.page-template-find-us .entry-title {
   text-transform: uppercase;
   font-family: "Novecento sans wide", sans-serif;
   font-weight: 600;
@@ -968,18 +968,18 @@ h2 {
   color: #2f1339;
   text-transform: uppercase; }
 
-p.contact-para {
+.page-template-find-us .contact-para {
   width: 750px;
   word-spacing: 1px; }
 
-.page-id-11 .site-content {
+.page-template-find-us .site-content {
   display: -ms-flexbox;
   display: flex;
   margin-right: auto;
   margin-left: auto;
   width: 1120px; }
 
-.page-id-11 .content-area {
+.page-template-find-us .content-area {
   border-right: 1px solid #e1e1e1;
   padding-right: 5%;
   width: 1120px;
@@ -987,16 +987,19 @@ p.contact-para {
   display: flex;
   margin: 0 auto; }
 
-.required {
+.page-template-find-us .required {
   color: #d99054; }
 
-.contact-meta, i.fa {
+.page-template-find-us .contact-meta, i.fa {
   color: #404040; }
 
 .custom-hero {
   height: 100vh; }
-  .custom-hero .page-template .entry-title {
-    position: absolute;
+  .custom-hero .page-template-about .entry-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
     color: #fff;
     text-transform: uppercase;
     margin-top: 21rem;
@@ -1009,23 +1012,7 @@ p.contact-para {
     font-style: normal;
     letter-spacing: 2px; }
 
-div.container {
-  padding-left: 20rem; }
-  div.container div.entry-title {
-    width: 50rem; }
-    div.container div.entry-title h2.story-header {
-      font-size: 2rem;
-      font-family: "Novecento sans wide", sans-serif;
-      font-weight: 600;
-      font-style: normal;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.shop-section {
+.home .shop-section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -1040,12 +1027,12 @@ div.container {
     height: 70px;
     width: 70px; }
 
-.shop-stuff-content img {
+.home .shop-stuff-content img {
   position: relative;
   margin-left: 5.95rem;
   margin-top: 1rem; }
 
-.shop-stuff-content p {
+.home .shop-stuff-content p {
   text-align: center;
   font-size: 1.063rem;
   line-height: 1.75;
@@ -1065,7 +1052,7 @@ a.shop-button {
   margin-left: 0 auto;
   position: relative; }
 
-.shop-button:hover {
+.home .shop-button:hover {
   color: grey; }
 
 /* SHOP STUFF */

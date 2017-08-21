@@ -1,8 +1,9 @@
 .custom-hero {
   height: 100vh;
  
-  .page-template .entry-title{
-    position: absolute;
+  .page-template-about .entry-title{
+    display: flex;
+    justify-content: center;
     color: $color_white;
     text-transform: uppercase;
     margin-top: 21rem;
@@ -17,27 +18,19 @@
   }
 }
 
-div.container {
- // position: sticky;
-  padding-left: 20rem;
+// div.container {
 
-     div.entry-title {
-       width: 50rem;
+//      div.entry-title {
 
-       h2.story-header {
-         font-size: 2rem;
-         font-family: $font_secondary_wide;
-         font-weight: 600;
-         font-style: normal;
-         text-transform: uppercase;
-         letter-spacing: 2px;
-         display: flex;
-         justify-content: center;
-       }
-    }
-}
-
-// span.s1 {
-//   line-height: 1.75;
-//   width: 50rem;
+//        h2.story-header {
+//          font-size: 2rem;
+//          font-family: $font_secondary_wide;
+//          font-weight: 600;
+//          font-style: normal;
+//          text-transform: uppercase;
+//          letter-spacing: 2px;
+//          display: flex;
+//          justify-content: center;
+//        }
+//     }
 // }

@@ -4,7 +4,7 @@
 //   height: 100%;
 //   width: 45%;
 // }
-.entry-title {
+.page-template-find-us .entry-title {
   text-transform: uppercase;
   font-family: $font_secondary_wide;
   font-weight: 600;
@@ -23,19 +23,19 @@ h2 {
   text-transform: uppercase;
 }
 
-p.contact-para {
+.page-template-find-us .contact-para {
   width: 750px;
   word-spacing: 1px;
 }
 
-.page-id-11 .site-content {
+.page-template-find-us .site-content {
   display: flex;
   margin-right: auto;
   margin-left: auto;
   width: 1120px;
 }
 
-.page-id-11 .content-area {
+.page-template-find-us .content-area {
   border-right: $border-solid;
   padding-right: 5%;
   width: 1120px;
@@ -43,11 +43,11 @@ p.contact-para {
   margin: 0 auto;
 }
 
-.required {
+.page-template-find-us .required {
   color: $color_orange;
 }
 
 //sidebar icons
-.contact-meta, i.fa {
+.page-template-find-us .contact-meta, i.fa {
   color: $color__text-main;
 }

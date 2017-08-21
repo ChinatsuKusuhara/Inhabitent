@@ -29,7 +29,8 @@ get_header(); ?>
               </div>
             </div>
 							<div class="product-info">
-								<?php the_title('<p class="product-title">'); ?>
+                <?php the_title('<p class="product-title">'); ?>
+                <span>........</span>
 								<?php echo CFS()->get( 'price' ); ?>
 							</div>
 					</div>
