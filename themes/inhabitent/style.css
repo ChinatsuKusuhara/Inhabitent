@@ -996,10 +996,6 @@ h2 {
 .custom-hero {
   height: 100vh; }
   .custom-hero .page-template-about .entry-title {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
     color: #fff;
     text-transform: uppercase;
     margin-top: 21rem;
@@ -1011,6 +1007,10 @@ h2 {
     font-weight: 600;
     font-style: normal;
     letter-spacing: 2px; }
+
+.page-template-about .about-content {
+  margin: 3rem auto;
+  max-width: 800px; }
 
 .home .shop-section {
   display: -ms-flexbox;
@@ -1103,8 +1103,50 @@ a.shop-button {
   margin-left: auto;
   margin-right: auto;
   width: 1120px; }
+  .single-product .site-content .content-area {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 4.5rem; }
+
+.single-product .single-product-title {
+  margin-top: 0;
+  text-transform: uppercase;
+  line-height: 1.25px;
+  letter-spacing: 5px; }
+
+.single-product .site-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .single-product .site-content .one-product {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
 
 .product-img {
-  width: 540px; }
-  .product-img img {
-    width: 100%; }
+  width: 48%; }
+
+.product-desc {
+  width: 48%; }
+  .product-desc .social-wrap {
+    margin: 1.5rem 0; }
+    .product-desc .social-wrap p {
+      border: 1px solid #000;
+      color: black; }
+    .product-desc .social-wrap a {
+      text-decoration: none;
+      color: black;
+      white-space: 1rem; }
+
+.white-link {
+  background-color: transparent; }
+
+.single-product h1 {
+  color: #d99054; }
+
+.single-product .price {
+  font-size: 1.8rem;
+  margin: 0;
+  text-transform: uppercase; }

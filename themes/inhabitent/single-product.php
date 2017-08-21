@@ -15,13 +15,13 @@ get_header(); ?>
         <?php the_post_thumbnail( 'large' ); ?>
       </div>
       <div class="product-desc">
-        <h1><?php the_title(); ?></h1>
-        <h2><?php echo CFS()->get( 'product_price' ); ?></h2>
+        <h1 class="single-product-title"><?php the_title(); ?></h1>
+        <p class="price"><?php echo CFS()->get( 'price' ); ?></p>
         <?php the_content(); ?>
         <div class="social-wrap">
-          <p class="white-link"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Like</a></p>
-          <p class="white-link"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</a></p>
-          <p class="white-link"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin</a></p>
+          <button class="white-link"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Like</a></button>
+          <button class="white-link"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</a></button>
+          <button class="white-link"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin</a></button>
         </div><!--.social-wrap-->
       </div><!--.product-desc-->
     <?php endwhile; // End of the loop. ?>
