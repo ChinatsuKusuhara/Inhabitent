@@ -75,10 +75,10 @@ get_header(); ?>
 	</section>
 
 	<!-- ADVENTURE  -->
-	<section class="adventures container">
+	<div class="adventures container">
 		<h2>Latest Adventures</h2>
 
-		<div class="latest-adventures">
+		<section class="latest-adventures">
 			<div class="photo-1">
 				<h3><a class="adventure-link" href="#">Getting Back to Nature in a Canoe</a></h3>
 				<p><a class="read-more" href="#">Read More</a></p>
@@ -98,8 +98,8 @@ get_header(); ?>
 						<p><a class="read-more" href="#">Read More</a></p>
 					</div>
 				</div>
-			</div>
+			</section>
 			<p class="more-adventures" href="#">More Adventure</a></p>
-	</section>
+	</div>
 
 <?php get_footer(); ?>
