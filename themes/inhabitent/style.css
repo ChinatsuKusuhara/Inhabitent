@@ -740,6 +740,18 @@ object {
   -ms-flex-pack: center;
       justify-content: center; }
 
+/* HEADER for SHOP STUFF and INHIBITENT JOURNAL*/
+h2.header {
+  font-family: "Novecento sans wide Normal", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
 .logo-tent-white {
   height: 33px; }
 
@@ -889,7 +901,7 @@ div.copyright {
     font-family: "Novecento sans wide Normal", sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: black; }
+    color: #2f1339; }
 
 .blog .site-content {
   display: -ms-flexbox;
@@ -911,7 +923,8 @@ h2.widget-title {
   font-weight: 600;
   font-style: normal;
   font-size: 1.5em;
-  letter-spacing: 2.5px; }
+  letter-spacing: 2.5px;
+  color: #2f1339; }
   h2.widget-title span.day-of-the-week {
     font-family: "Merriweather", serif;
     font-weight: bold;
@@ -945,7 +958,7 @@ h2 {
   font-style: normal;
   font-size: 37px;
   letter-spacing: 1px;
-  color: black;
+  color: #2f1339;
   text-transform: uppercase; }
 
 p.contact-para {

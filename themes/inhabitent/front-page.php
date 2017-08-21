@@ -20,7 +20,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 	<section class="shop-stuff-home container">
-		<h2>Shop Stuff</h2>
+		<h2 class="header">Shop Stuff</h2>
 		<div class="shop-section">
 			<?php $terms = get_terms( 'product_type' );
 				foreach ( $terms as $term ) {
@@ -40,7 +40,7 @@ get_header(); ?>
 	</section>
 
 	<section class="journal-home container">
-		<h2>Inhabitent Journal</h2>
+		<h2 class="header">Inhabitent Journal</h2>
 			<div class="journal-post-page">
 				<?php
 				$args = array( 

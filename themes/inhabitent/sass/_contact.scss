@@ -19,7 +19,7 @@ h2 {
   font-style: normal;
   font-size: 37px;
   letter-spacing: 1px;
-  color: black;
+  color: $color_purple;
   text-transform: uppercase;
 }
 
@@ -46,8 +46,6 @@ p.contact-para {
 .required {
   color: $color_orange;
 }
-
-//.wpcf7-
 
 //sidebar icons
 .contact-meta, i.fa {
