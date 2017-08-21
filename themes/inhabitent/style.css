@@ -750,7 +750,8 @@ h2.header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  color: #2f1339; }
 
 .logo-tent-white {
   height: 33px; }
@@ -871,10 +872,7 @@ div.copyright {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0; }
+      justify-content: space-between; }
 
 .post-img {
   height: 5rem; }
@@ -901,7 +899,8 @@ div.copyright {
     font-family: "Novecento sans wide Normal", sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #2f1339; }
+    color: #2f1339;
+    position: absolute; }
 
 .blog .site-content {
   display: -ms-flexbox;
@@ -1081,7 +1080,12 @@ a.shop-button {
 
 h1.page-title {
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "Novecento sans wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.25rem;
+  letter-spacing: 1px; }
 
 .product-post {
   border: 1px solid #e1e1e1;

@@ -52,9 +52,9 @@ get_header(); ?>
 					'suppress_filters' => true 
 				);
 				?>
-			<?php
-				$product_posts = get_posts( $args ); // returns an array of posts
-			?>
+				<?php
+					$product_posts = get_posts( $args ); // returns an array of posts
+				?>
 
 					<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
 				
