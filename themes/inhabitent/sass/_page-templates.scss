@@ -33,6 +33,7 @@
 /* JOURNAL */
 .home .journal-post-info {
   padding: .75rem;
+  padding-bottom: 4rem;
 
   p.commented-dates {
     font-size: .75rem;
@@ -46,6 +47,10 @@
     font-style: normal;
     color: $color_green;
     font-size: 1.3em;
+
+    &:hover {
+      color: $color_purple;
+    }
   }  
 
   a.read-more {
@@ -59,14 +64,46 @@
     color: $color_purple;
     position: absolute;
     bottom: .75rem;
-    left: .75rem;
+    left: .75rem;  
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+    text-transform: uppercase;
+    
+     &:hover {
+       background-color: $color_green;
+       color: $color_white;
+       border: 1px solid #19625d; 
+     }
+  }
+}
+
+div a.adventure-link:hover {
+  color: $color_yellow;
+}
+
+div p a.read-more{
+  text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 11px 20px;
+  border: 0.5px solid $color_white;
+  font-family: $font_secondary_norm;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  padding: .8rem 1.2rem;
+
+  &:hover {
+    background: $color_green;
+    border: 0.5px solid $color_green;
   }
 }
 
 .home .journal-content-post {
-  border: 1px solid #e1e1e1;
+  border: $border-solid;
   flex: 0 1 32%;
   position: relative;
+  //border-top-width: 5px;
 } 
 
 /* ADVENTURE */ 
@@ -141,20 +178,12 @@
     width: 100%;
     height: 50%;
   }
-  .read-more {
-    border: 1px solid #e1e1e1;
-    font-size: 1rem;
-    padding: .8rem 1.2rem;
-    text-transform: uppercase;
-    &:hover {
-      background-color: $color_green;
-      border: 1px solid #19625d;
-    }
-  }
-
   .more-adventures {
+    font-family: $font_secondary_norm;
+    font-weight: normal;
+    font-style: normal;
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: .8rem 1.2rem;
     text-transform: uppercase;
     text-decoration: none;

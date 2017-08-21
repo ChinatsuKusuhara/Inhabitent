@@ -781,7 +781,8 @@ h2.header {
 
 /* JOURNAL */
 .home .journal-post-info {
-  padding: .75rem; }
+  padding: .75rem;
+  padding-bottom: 4rem; }
   .home .journal-post-info p.commented-dates {
     font-size: .75rem; }
   .home .journal-post-info a.post-title {
@@ -792,6 +793,8 @@ h2.header {
     font-style: normal;
     color: #248A83;
     font-size: 1.3em; }
+    .home .journal-post-info a.post-title:hover {
+      color: #2f1339; }
   .home .journal-post-info a.read-more {
     text-decoration: none;
     text-transform: uppercase;
@@ -803,7 +806,32 @@ h2.header {
     color: #2f1339;
     position: absolute;
     bottom: .75rem;
-    left: .75rem; }
+    left: .75rem;
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+    text-transform: uppercase; }
+    .home .journal-post-info a.read-more:hover {
+      background-color: #248A83;
+      color: #fff;
+      border: 1px solid #19625d; }
+
+div a.adventure-link:hover {
+  color: #f0e4d1; }
+
+div p a.read-more {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 11px 20px;
+  border: 0.5px solid #fff;
+  font-family: "Novecento sans wide Normal", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  padding: .8rem 1.2rem; }
+  div p a.read-more:hover {
+    background: #248A83;
+    border: 0.5px solid #248A83; }
 
 .home .journal-content-post {
   border: 1px solid #e1e1e1;
@@ -882,18 +910,12 @@ h2.header {
   width: 100%;
   height: 50%; }
 
-.read-more {
-  border: 1px solid #e1e1e1;
-  font-size: 1rem;
-  padding: .8rem 1.2rem;
-  text-transform: uppercase; }
-  .read-more:hover {
-    background-color: #248A83;
-    border: 1px solid #19625d; }
-
 .more-adventures {
+  font-family: "Novecento sans wide Normal", sans-serif;
+  font-weight: normal;
+  font-style: normal;
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding: .8rem 1.2rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -1129,7 +1151,7 @@ span.tags-links {
     text-decoration: none;
     color: #248A83; }
 
-div a.moretag {
+.blog div a.moretag {
   text-transform: uppercase;
   text-decoration: none;
   border: 1px solid black;
@@ -1139,7 +1161,15 @@ div a.moretag {
   font-style: normal;
   font-size: .9rem;
   line-height: 1;
-  padding: .75rem 1.5rem; }
+  padding: .75rem 1.5rem;
+  display: -ms-flexbox;
+  display: flex;
+  width: 19%; }
+  .blog div a.moretag:hover {
+    background: #248A83;
+    color: white; }
+    .blog div a.moretag:hover :before {
+      color: white; }
 
 .page-template-find-us .entry-title {
   text-transform: uppercase;
@@ -1216,6 +1246,8 @@ h2 {
   -ms-flex: 0 1 23.5%;
       flex: 0 1 23.5%;
   border-top-width: 5px; }
+  .home .shop-stuff-content:hover {
+    border-color: #d99054; }
   .home .shop-stuff-content img {
     height: 70px;
     width: 70px; }
@@ -1244,9 +1276,8 @@ a.shop-button {
   text-transform: uppercase;
   margin-left: 0 auto;
   position: relative; }
-
-.home .shop-button:hover {
-  color: grey; }
+  a.shop-button:hover {
+    background: #185571; }
 
 /* SHOP STUFF */
 .post-type-archive .content-area {
@@ -1334,7 +1365,21 @@ a.shop-button {
       white-space: 1rem; }
 
 .white-link {
-  background-color: transparent; }
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: "Novecento sans wide Normal", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  border: 1px solid black;
+  color: black;
+  font-size: 1rem;
+  padding: .75rem 1.5rem; }
+  .white-link:hover {
+    color: #fff;
+    background: #248A83; }
+
+div p {
+  line-height: 1.75; }
 
 .single-product h1 {
   color: #d99054; }

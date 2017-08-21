@@ -9,6 +9,9 @@
   border: 1px solid #e1e1e1;
   flex: 0 1 23.5%;
   border-top-width: 5px;
+  &:hover {
+    border-color: $color_orange;
+  }
     img {
       height: 70px;
       width: 70px;
@@ -41,13 +44,14 @@ a.shop-button {
   text-transform: uppercase;
   margin-left: 0 auto;
   position: relative;
+  &:hover {
+    background: darken(#21759b, 10%);
+  }
 }
 
 
 // COME BACK TO THIS
-.home .shop-button:hover {
-  color: grey;
-}
+
 
 // .shop-stuff-content :hover{
 //   color: $color_orange;
