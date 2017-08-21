@@ -76,7 +76,7 @@ get_header(); ?>
 
 	<!-- ADVENTURE  -->
 	<div class="adventures container">
-		<h2>Latest Adventures</h2>
+		<h2 class="header">Latest Adventures</h2>
 
 		<section class="latest-adventures">
 			<div class="photo-1">

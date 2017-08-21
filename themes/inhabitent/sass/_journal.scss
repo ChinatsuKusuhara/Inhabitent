@@ -8,42 +8,6 @@
   //margin-bottom: 0;
 }
 
-.post-img {
-  height: 5rem;
-}
-
-.journal-post-info {
-  padding: .75rem;
-  border: $border-solid;
-  border-top-width: 5px; 
-
-  p.commented-dates {
-    font-size: .75rem;
-  }
-
-  a.post-title {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: $font_secondary_wide;
-    font-weight: 600;
-    font-style: normal;
-    color: $color_green;
-    font-size: 1.3em;
-  }  
-
-  a.read-more {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 11px 20px;
-    border: 0.5px solid black;
-    font-family: $font_secondary_norm;
-    font-weight: normal;
-    font-style: normal;
-    color: $color_purple;
-    position: absolute;
-  }
-}
-
 .blog .site-content {
   display: flex;
   margin-right: auto;

@@ -753,6 +753,37 @@ h2.header {
       justify-content: center;
   color: #2f1339; }
 
+/* JOURNAL */
+.home .journal-post-info {
+  padding: .75rem;
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px; }
+  .home .journal-post-info p.commented-dates {
+    font-size: .75rem; }
+  .home .journal-post-info a.post-title {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Novecento sans wide", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #248A83;
+    font-size: 1.3em; }
+  .home .journal-post-info a.read-more {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px 20px;
+    border: 0.5px solid black;
+    font-family: "Novecento sans wide Normal", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #2f1339;
+    position: absolute; }
+
+.home .journal-content-post {
+  -ms-flex: 0 1 32%;
+      flex: 0 1 32%;
+  position: relative; }
+
 /* ADVENTURE */
 .latest-adventures {
   display: -ms-flexbox;
@@ -970,34 +1001,6 @@ div.copyright {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between; }
-
-.post-img {
-  height: 5rem; }
-
-.journal-post-info {
-  padding: .75rem;
-  border: 1px solid #e1e1e1;
-  border-top-width: 5px; }
-  .journal-post-info p.commented-dates {
-    font-size: .75rem; }
-  .journal-post-info a.post-title {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Novecento sans wide", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #248A83;
-    font-size: 1.3em; }
-  .journal-post-info a.read-more {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 11px 20px;
-    border: 0.5px solid black;
-    font-family: "Novecento sans wide Normal", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    color: #2f1339;
-    position: absolute; }
 
 .blog .site-content {
   display: -ms-flexbox;
