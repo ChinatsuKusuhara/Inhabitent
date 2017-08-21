@@ -31,19 +31,28 @@
 }
 
 /* ADVENTURE */ 
+
 .latest-adventures {
   display: flex;
   height: 600px;
   margin: 0 auto;
   width: 1120px;
   margin-bottom: 2rem;
+    h3{
+      font-weight: normal;
+      margin-top: 0;
+    }
+    a {
+      text-decoration: none;
+      color: $color_white;
+    }
 }
 .photo-1 {
   height: 100%;
   width: 50%;
   padding: 1.6rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../asset/adventure-photos/canoe-girl.jpg) center;
-  background-size: cover cover;
+  background-size: cover, cover;
   border-right: solid 10px #e1e1e1;
   font-size: 2.8rem;
 }
@@ -53,7 +62,7 @@
   width: 100%;
   padding: 1.6rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../asset/adventure-photos/beach-bonfire.jpg) center;
-  background-size: cover cover;
+  background-size: cover, cover;
   border-left: solid 10px #e1e1e1;
   border-bottom: solid 10px #e1e1e1;
   font-size: 2rem;
@@ -76,7 +85,7 @@
   height: 100%;
   width: 50%;
   padding: 1.6rem 2rem;
-  background: linear-gradient(rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .1)), url(../../images/adventure-photos/night-sky.jpg) center;
+  background: linear-gradient(rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .1)), url(../../asset/adventure-photos/night-sky.jpg) center;
   background-size: cover, cover;
   border-left: solid 10px white;
   border-top: solid 10px white;
@@ -93,3 +102,33 @@
     width: 100%;
     height: 50%;
   }
+  .read-more {
+    border: 1px solid #e1e1e1;
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+    text-transform: uppercase;
+    &:hover {
+      background-color: $color_green;
+      border: 1px solid #19625d;
+    }
+  }
+
+  .more-adventures {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color_white;
+    background-color: $color_green;
+    &:hover {
+      background: darken(#19625d, 10%);
+      color: white;
+    }
+    &:visited {
+      color: white;
+    }
+  }
+.adventures li:first-child h3 {
+  font-size: 3rem;
+}

@@ -94,12 +94,12 @@ get_header(); ?>
 						<p><a class="read-more" href="#">Read More</a></p>
 					</div>
 					<div class="photo-4">
-						<h3 class="adventure-link" href="#">Star-Gazing at the Night Sky</a></h3>
+						<h3><a class="adventure-link" href="#">Star-Gazing at the Night Sky</a></h3>
 						<p><a class="read-more" href="#">Read More</a></p>
 					</div>
 				</div>
 			</section>
-			<p class="more-adventures" href="#">More Adventure</a></p>
+			<p><a class="more-adventures" href="#">More Adventure</a></p>
 	</div>
 
 <?php get_footer(); ?>
