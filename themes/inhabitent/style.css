@@ -753,6 +753,24 @@ h2.header {
       justify-content: center;
   color: #2f1339; }
 
+/* ADVENTURE */
+.photo-1 {
+  height: 100%;
+  width: 50%;
+  padding: 1.6rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../asset/adventure-photos/canoe-girl.jpg) center;
+  background-size: cover cover;
+  border-right: solid 10px #e1e1e1;
+  font-size: 2.8rem; }
+
+.photo-right {
+  width: 50%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .logo-tent-white {
   height: 33px; }
 
@@ -1111,7 +1129,7 @@ a.shop-button {
 .single-product .single-product-title {
   margin-top: 0;
   text-transform: uppercase;
-  line-height: 1.25px;
+  line-height: 1.25;
   letter-spacing: 5px; }
 
 .single-product .site-content {

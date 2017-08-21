@@ -74,4 +74,32 @@ get_header(); ?>
 			</div>
 	</section>
 
+	<!-- ADVENTURE  -->
+	<section class="adventures container">
+		<h2>Latest Adventures</h2>
+
+		<div class="latest-adventures">
+			<div class="photo-1">
+				<h3><a class="adventure-link" href="#">Getting Back to Nature in a Canoe</a></h3>
+				<p><a class="read-more" href="#">Read More</a></p>
+			</div>
+			<div class="photo-right">
+				<div class="photo-2">
+					<h3><a class="adventure-link" href="#">A night with Friends at the Beach</a></h3>
+					<p><a class="read-more" href="#">Read More</a></p>
+				</div>
+				<div class="photo-bottom">
+					<div class="photo-3">
+						<h3><a class="adventure-link" href="#">Taking in the View at the Big Mountains</a></h3>
+						<p><a class="read-more" href="#">Read More</a></p>
+					</div>
+					<div class="photo-4">
+						<h3 class="adventure-link" href="#">Star-Gazing at the Night Sky</a></h3>
+						<p><a class="read-more" href="#">Read More</a></p>
+					</div>
+				</div>
+			</div>
+			<p class="more-adventures" href="#">More Adventure</a></p>
+	</section>
+
 <?php get_footer(); ?>
