@@ -21,7 +21,8 @@
   width: 100%;
   position: fixed;
   z-index: 1;
-  padding-top: .9rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid #e1e1e1;
 }
 .header {
   display: flex;
@@ -32,4 +33,10 @@
 }
 .menu-main-menu-container {
   margin-left: 465px;
+  padding-top: .5rem;
+}
+.main-navigation a {
+  &:visited {
+    color: $color_green;
+  }
 }

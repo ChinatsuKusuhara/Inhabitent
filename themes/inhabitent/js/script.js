@@ -1,19 +1,11 @@
-
 (function($) {
-  
-    $(document).ready(function() {
-        
-      $('.icon-search').click(function(){
-          $('.main-navigation .search-field').toggle('fast');
-          $('.main-navigation .search-field').focus();
-          return false;
-      });
-      
-      $(document).click( function(event){
-        if( !$('.search-field').is(event.target)){
-        $('.main-navigation .search-field').hide('fast');
-        }
-      });
-    });
-  
-  })(jQuery);
+  // Search icon animation
+  $('#search-form-input .icon-search').click(function(){
+    $('#search-form-input .search-field').toggleClass('search-field-focus');
+  });
+  $('#search-form-input .search-field').focusout(function(){
+    if($('#search-form-input .search-field').hasClass('search-field-focus')){
+      $('#search-form-input .search-field').removeClass('search-field-focus');
+    }
+  });
+})(jQuery);

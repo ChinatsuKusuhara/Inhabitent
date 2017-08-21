@@ -1,4 +1,4 @@
-# RED Starter
+# Inhabitent Theme
 
 A WordPress starter theme for RED Academy students, forked from Underscores.
 
@@ -19,3 +19,14 @@ Next you'll need to run `npm install` **inside your theme directory** next to in
 ### 4. Update the proxy in `gulpfile.js`
 
 Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `inhabitent.dev` to the appropriate localhost URL).
+
+
+## Built With
+
+* [PHP](http://php.net/) - The web framework 
+* [SASS](http://sass-lang.com/) - Styling
+* [JavaScript](https://www.javascript.com/) - search engine 
+
+## Author
+
+* **Chinatsu Kusuhara** -  [ChinatsuKusuhara](https://github.com/ChinatsuKusuhara)

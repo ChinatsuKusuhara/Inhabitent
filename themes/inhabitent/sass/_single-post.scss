@@ -1,2 +1,16 @@
 /* SINGLE POST JOURNAL*/ 
 
+.single-post .site-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  display: flex;
+  .content-area {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 4.5rem;
+    border-right: 1px solid #e1e1e1;
+    padding-right: 5;
+    width: 73%;
+  }
+}
