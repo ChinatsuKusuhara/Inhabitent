@@ -755,9 +755,7 @@ h2.header {
 
 /* JOURNAL */
 .home .journal-post-info {
-  padding: .75rem;
-  border: 1px solid #e1e1e1;
-  border-top-width: 5px; }
+  padding: .75rem; }
   .home .journal-post-info p.commented-dates {
     font-size: .75rem; }
   .home .journal-post-info a.post-title {
@@ -777,9 +775,12 @@ h2.header {
     font-weight: normal;
     font-style: normal;
     color: #2f1339;
-    position: absolute; }
+    position: absolute;
+    bottom: .75rem;
+    left: .75rem; }
 
 .home .journal-content-post {
+  border: 1px solid #e1e1e1;
   -ms-flex: 0 1 32%;
       flex: 0 1 32%;
   position: relative; }
@@ -880,6 +881,12 @@ h2.header {
 
 .adventures li:first-child h3 {
   font-size: 3rem; }
+
+.journal-post-info h3 {
+  margin-top: 0; }
+
+.journal-post-info p {
+  margin-bottom: 0; }
 
 .logo-tent-white {
   height: 33px; }

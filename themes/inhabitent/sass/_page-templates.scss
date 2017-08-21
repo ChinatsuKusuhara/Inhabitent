@@ -33,8 +33,6 @@
 /* JOURNAL */
 .home .journal-post-info {
   padding: .75rem;
-  border: $border-solid;
-  border-top-width: 5px; 
 
   p.commented-dates {
     font-size: .75rem;
@@ -60,10 +58,13 @@
     font-style: normal;
     color: $color_purple;
     position: absolute;
+    bottom: .75rem;
+    left: .75rem;
   }
 }
 
 .home .journal-content-post {
+  border: 1px solid #e1e1e1;
   flex: 0 1 32%;
   position: relative;
 } 
@@ -169,4 +170,12 @@
   }
 .adventures li:first-child h3 {
   font-size: 3rem;
+}
+.journal-post-info {
+  h3{
+  margin-top: 0;
+}
+p {
+  margin-bottom: 0;
+}
 }
