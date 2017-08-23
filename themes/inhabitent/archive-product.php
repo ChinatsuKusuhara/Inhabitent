@@ -1,6 +1,6 @@
 <?php
 /**
- * Template: Archive Product
+ * Template: Product Taxonomy
  *
  * @package RED_Starter_Theme
  */
@@ -16,7 +16,15 @@ get_header(); ?>
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
-				
+
+				 <ul class=“product-types”>
+                <?php foreach ( $product_types as $product_type ) : setup_postdata( $product_type ); ?>
+                    <li class=“product-type-name”>
+                        <a class=“text-uppercase” href=“<?php echo home_url() ?>/product/<?php echo $product_type->slug ?>“><?php echo $product_type->name ?></a>
+                    </li>
+                <?php endforeach; wp_reset_postdata(); ?>
+          </ul> 
+
 			</header><!-- .page-header -->
         <div class="boxes" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           <?php while (have_posts() ) : the_post(); ?>

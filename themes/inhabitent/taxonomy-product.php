@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Taxonomy Product
+ * Template Name:  Product Archive
  *
  * @package RED_Starter_Theme
  */
@@ -17,14 +17,8 @@ get_header(); ?>
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 
-				$term = get_term( 'product_type' ); ?>
-					<ul class="shop-stuff-items">
-						<?php foreach ($terms as $term): ?>
-						<?php $url = get_term_link($term->slug, 'product_type'); ?>
+				$term = get_term( 'product' ); ?>
 
-						<a href="<?php echo $url ?>"><?php echo $term->name ?></a>
-						<?php endforeach; ?>
-					</ul>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
