@@ -29,7 +29,7 @@ get_header(); ?>
 				$url = get_term_link($term->slug, 'product_type');
 			?>
 			<div class="shop-stuff-content">
-				<img  src="<?php echo get_template_directory_uri(); ?>/asset/product-type-icons/<?php echo $term->slug; ?>.svg">
+				<img  src="<?php echo get_template_directory_uri(); ?>/asset/product-type-icons/<?php echo $term->slug; ?>.svg" >  
 				<p><?php echo $term->description ?></p>
 				<p><a href="<?php echo $url ?>" class="shop-button"><?php echo $term->name.'';?></a></p>
 			</div>

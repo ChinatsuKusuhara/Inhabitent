@@ -620,13 +620,15 @@ ul {
   text-decoration: none;
   padding-left: 0;
   margin-left: 0; }
+  .widget a:hover {
+    color: #2f1339; }
 
 .widget-title {
   text-transform: uppercase; }
 
 .widget-area {
   margin-left: 5%;
-  width: 27%; }
+  width: 31%; }
 
 span.day-of-the-week {
   font-weight: bold; }
@@ -937,7 +939,8 @@ div p a.read-more {
   margin-bottom: 0; }
 
 .logo-tent-white {
-  height: 33px; }
+  height: 33px;
+  margin-top: 10px; }
 
 .main-navigation,
 .menu {
@@ -1002,6 +1005,9 @@ div p a.read-more {
     .site-footer .site-info h3 {
       color: #d99054;
       font-size: 19px; }
+
+a.contact:hover {
+  text-decoration: underline; }
 
 p .bold {
   color: #fff;
@@ -1096,14 +1102,17 @@ h2.widget-title {
 
 .blog img.attachment-large {
   width: 47rem;
-  padding-top: 4rem; }
+  padding-top: 2rem; }
+
+.post .entry-title a:hover {
+  color: #f0e4d1; }
 
 .type-post .entry-title {
   position: absolute;
   top: 0;
   background-color: #248A83;
   max-width: 75%;
-  margin-top: 6.25rem;
+  margin-top: 4.25rem;
   font-size: 2rem;
   padding: .75rem 1.5rem;
   color: #fff;
@@ -1125,7 +1134,7 @@ h2.widget-title {
   font-family: "Novecento sans wide Normal", sans-serif;
   font-weight: normal;
   font-style: normal;
-  margin-right: 32px;
+  margin-right: 7px;
   margin-bottom: 6px;
   text-transform: uppercase; }
   .type-post .entry-meta .comments-link a {
@@ -1164,7 +1173,8 @@ span.tags-links {
   padding: .75rem 1.5rem;
   display: -ms-flexbox;
   display: flex;
-  width: 19%; }
+  width: 20%;
+  margin-top: 20px; }
   .blog div a.moretag:hover {
     background: #248A83;
     color: white; }

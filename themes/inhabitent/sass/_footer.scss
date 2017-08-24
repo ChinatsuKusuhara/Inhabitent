@@ -14,6 +14,10 @@
     }
 }   
 
+a.contact:hover {
+  text-decoration: underline;
+}
+
 p .bold {
   color: $color_white;
   font-family: $font_main;

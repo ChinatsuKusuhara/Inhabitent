@@ -3,9 +3,6 @@
 .journal-post-page {
   display: flex;
   justify-content: space-between;
-  // margin-left: 0;
-  // margin-right: 0;
-  //margin-bottom: 0;
 }
 .blog .site-content {
   display: flex;
@@ -41,14 +38,17 @@ h2.widget-title {
 }
 .blog img.attachment-large {
   width: 47rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
+}
+.post .entry-title  a:hover {
+  color: $color_yellow;
 }
 .type-post .entry-title {
   position: absolute;
   top: 0;
   background-color: $color_green;
   max-width: 75%;
-  margin-top: 6.25rem;
+  margin-top: 4.25rem;
   font-size: 2rem;
   padding: .75rem 1.5rem;
   color: $color_white;
@@ -72,7 +72,7 @@ h2.widget-title {
   font-family: $font_secondary_norm;
   font-weight: normal;
   font-style: normal;
-  margin-right: 32px;
+  margin-right: 7px;
   margin-bottom: 6px;  
   text-transform: uppercase;
 
@@ -116,7 +116,8 @@ span.tags-links {
   line-height: 1;
   padding: .75rem 1.5rem;
   display: flex;
-  width: 19%;
+  width: 20%;
+  margin-top: 20px;
   
   &:hover {
     background: $color_green;

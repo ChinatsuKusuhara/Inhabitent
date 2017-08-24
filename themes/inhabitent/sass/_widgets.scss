@@ -34,13 +34,17 @@
 	text-decoration: none;
 	padding-left: 0;
 	margin-left: 0;
+
+	&:hover {
+		color: $color_purple;
+	}
 }
 .widget-title {
 	text-transform: uppercase;
 }
 .widget-area {
 	margin-left: 5%;
-	width: 27%;
+	width: 31%;
 }
 span.day-of-the-week {
 	font-weight: bold;
