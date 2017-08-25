@@ -1434,3 +1434,16 @@ div p {
   display: flex;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
+
+/* SEARCH FORM */
+.search .site-content {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1120px;
+  display: -ms-flexbox;
+  display: flex; }
+
+.search .content-area {
+  padding-right: 5%;
+  border-right: 1px solid #e1e1e1;
+  width: 73%; }
