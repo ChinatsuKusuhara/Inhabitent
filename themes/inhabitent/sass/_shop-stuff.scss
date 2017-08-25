@@ -70,3 +70,22 @@
   width: auto;
   position: absolute;
 }
+
+
+/* PRODUCT TYPE */
+.tax-product_type .page-header {
+  text-align: center;
+  border-bottom: 1px dashed #c8c8c8;
+  margin-top: 3rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+    .flex-product-item {
+      flex: 0 1 23%;
+      max-width: 23%;
+      border: 1px solid #e1e1e1;
+    }
+}

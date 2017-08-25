@@ -33,7 +33,7 @@
   top: 0;
   background-color: $color_green;
   max-width: 75%;
-  margin-top: 2.25rem;
+  margin-top: 4rem;
   font-size: 2rem;
   padding: .75rem 1.5rem;
   color: $color_white;
@@ -41,6 +41,8 @@
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
+  line-height: 1.2;
+
 
   a {
     text-decoration: none;

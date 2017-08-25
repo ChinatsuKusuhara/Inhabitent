@@ -33,9 +33,8 @@ get_header(); ?>
 					
 					<div class="product-title-section">
 						<h2 class="entry-title">
-							<span><?php the_title(); ?></span> 
-							<span>.....................................</span>
-							<span><?php echo CFS()->get( 'price' ); ?></span>
+							<p><?php the_title(); ?></p> 
+							<p><?php echo CFS()->get( 'price' ); ?></p>
 						</h2>
 					</div>
 				</div>

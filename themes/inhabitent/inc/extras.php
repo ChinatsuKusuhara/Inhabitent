@@ -78,7 +78,7 @@ add_filter('get_the_archive_title', 'archive_product_title');
 function inhabitent_title( $title ) {
 	if  ( is_post_type_archive('product') ) {
 			$title = 'Shop Stuff';
-	} elseif ( is_tax('product-type') ) {
+	} elseif ( is_tax() ) {
 			$title = single_term_title( '', false);
 	}
 	return $title;
