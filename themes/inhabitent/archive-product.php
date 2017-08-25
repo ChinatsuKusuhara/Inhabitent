@@ -38,8 +38,7 @@ get_header(); ?>
 					<?php endif; ?>
 					<div class="product-title-section">
 						<p class="entry-title">
-							<span><?php the_title(); ?></span> 
-							<span>.....................................</span>
+							<?php the_title(); ?>
 							<span><?php echo CFS()->get( 'price' ); ?></span>
             </p>
 					</div>

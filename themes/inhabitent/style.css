@@ -1266,6 +1266,29 @@ a.shop-button {
     background: #19625d; }
 
 /* SHOP STUFF */
+.product-post .entry-title::before {
+  content: "............................";
+  float: left;
+  white-space: nowrap;
+  width: 0; }
+
+.post-type-archive .page-header {
+  border-bottom: 1px dashed #c8c8c8;
+  margin-bottom: 3rem;
+  text-align: center; }
+
+.product-types {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-transform: uppercase; }
+  .product-types a {
+    color: #248A83;
+    text-decoration: none; }
+  .product-types li {
+    margin: 0 1.5rem; }
+
 .post-type-archive .content-area {
   padding-top: 3rem;
   padding-bottom: 3rem; }
@@ -1296,17 +1319,20 @@ a.shop-button {
       flex: 0 1 23%;
   max-width: 23%;
   margin-bottom: 1.5rem; }
-  .product-post .product-grid {
+  .product-post .product-thumbnail {
     height: 250px;
     overflow: hidden;
-    background-color: #e1e1e1; }
-    .product-post .product-grid .wp-post-image {
-      max-height: 250px;
-      max-width: none;
-      left: 50%;
-      top: 50%;
-      transform: translate(-15%, -1%);
-      width: auto; }
+    background-color: #e1e1e1;
+    position: relative; }
+
+.product-post .wp-post-image {
+  max-height: 250px;
+  max-width: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -52%);
+  width: auto;
+  position: absolute; }
 
 /* individual Shop page */
 .single-product .site-content {
