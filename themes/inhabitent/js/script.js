@@ -1,6 +1,6 @@
 (function($) {
   // Search icon animation
-  $('#search-form-input .icon-search').click(function(){
+  $('.icon-search').click(function(){
     $('#search-form-input .search-field').toggleClass('search-field-focus');
   });
   $('#search-form-input .search-field').focusout(function(){
