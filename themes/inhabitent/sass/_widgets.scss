@@ -40,12 +40,20 @@
 	}
 }
 .widget-title {
-	text-transform: uppercase;
+  margin-top: 4rem;
+  font-family: $font_secondary_wide;  
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5em;
+  letter-spacing: 2.5px;
+  color: $color_purple;
 }
 .widget-area {
 	margin-left: 5%;
 	width: 31%;
 }
 span.day-of-the-week {
-	font-weight: bold;
+   font-family: $font_main;
+   font-weight: bold;
+   font-style: normal;
 }

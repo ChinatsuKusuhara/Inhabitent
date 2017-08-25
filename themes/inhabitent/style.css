@@ -624,14 +624,22 @@ ul {
     color: #2f1339; }
 
 .widget-title {
-  text-transform: uppercase; }
+  margin-top: 4rem;
+  font-family: "Novecento sans wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5em;
+  letter-spacing: 2.5px;
+  color: #2f1339; }
 
 .widget-area {
   margin-left: 5%;
   width: 31%; }
 
 span.day-of-the-week {
-  font-weight: bold; }
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-style: normal; }
 
 /*--------------------------------------------------------------
 # Content
@@ -1083,19 +1091,6 @@ div.copyright {
   display: flex;
   margin: 0 auto; }
 
-h2.widget-title {
-  margin-top: 4rem;
-  font-family: "Novecento sans wide", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.5em;
-  letter-spacing: 2.5px;
-  color: #2f1339; }
-  h2.widget-title span.day-of-the-week {
-    font-family: "Merriweather", serif;
-    font-weight: bold;
-    font-style: normal; }
-
 .blog,
 .type-post .entry-header {
   position: relative; }
@@ -1104,15 +1099,15 @@ h2.widget-title {
   width: 47rem;
   padding-top: 2rem; }
 
-.post .entry-title a:hover {
+.post .entry-header .entry-title a:hover {
   color: #f0e4d1; }
 
-.type-post .entry-title {
+.content-area .type-post .entry-title {
   position: absolute;
   top: 0;
   background-color: #248A83;
   max-width: 75%;
-  margin-top: 4.25rem;
+  margin-top: 2.25rem;
   font-size: 2rem;
   padding: .75rem 1.5rem;
   color: #fff;
@@ -1120,9 +1115,12 @@ h2.widget-title {
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase; }
-  .type-post .entry-title a {
+  .content-area .type-post .entry-title a {
     text-decoration: none;
     color: #fff; }
+
+.post .entry-header img {
+  width: 50rem; }
 
 .type-post .entry-meta {
   position: absolute;
@@ -1134,7 +1132,7 @@ h2.widget-title {
   font-family: "Novecento sans wide Normal", sans-serif;
   font-weight: normal;
   font-style: normal;
-  margin-right: 7px;
+  margin-right: 0;
   margin-bottom: 6px;
   text-transform: uppercase; }
   .type-post .entry-meta .comments-link a {
@@ -1223,28 +1221,6 @@ h2 {
 .page-template-find-us .contact-meta, i.fa {
   color: #404040; }
 
-.custom-hero {
-  height: 100vh; }
-  .custom-hero .page-template-about .entry-title {
-    color: #fff;
-    text-transform: uppercase;
-    margin-top: 21rem;
-    margin-left: 12.5em;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 3em;
-    font-family: "Novecento sans wide", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    letter-spacing: 2px; }
-
-.page-template-about .about-content {
-  margin: 3rem auto;
-  max-width: 800px; }
-
-.page-template-about h2 {
-  text-align: center; }
-
 .home .shop-section {
   display: -ms-flexbox;
   display: flex;
@@ -1287,7 +1263,7 @@ a.shop-button {
   margin-left: 0 auto;
   position: relative; }
   a.shop-button:hover {
-    background: #185571; }
+    background: #19625d; }
 
 /* SHOP STUFF */
 .post-type-archive .content-area {
@@ -1337,10 +1313,6 @@ a.shop-button {
   margin-left: auto;
   margin-right: auto;
   width: 1120px; }
-  .single-product .site-content .content-area {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 4.5rem; }
 
 .single-product .single-product-title {
   margin-top: 0;
@@ -1406,13 +1378,6 @@ div p {
   width: 1120px;
   display: -ms-flexbox;
   display: flex; }
-  .single-post .site-content .content-area {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 4.5rem;
-    border-right: 1px solid #e1e1e1;
-    padding-right: 5;
-    width: 73%; }
 
 .archive .site-content {
   margin-right: auto;

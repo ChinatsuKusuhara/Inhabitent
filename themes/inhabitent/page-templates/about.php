@@ -9,8 +9,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-				<header class="entry-header custom-hero">
-						<h2>About</h2>
+				<header class="entry-header">
+					<div class="custom-hero">
+						<h2 class="about">About</h2>
+					</div>
 				</header>
 				<div class="container about-content">
 							<h2 class="story-header">Our Story</h2>
@@ -21,4 +23,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_footer(); ?>
+	<?php get_footer(); ?>

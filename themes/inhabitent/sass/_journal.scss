@@ -17,21 +17,6 @@
   display: flex;
   margin: 0 auto;
 }
-h2.widget-title {
-  margin-top: 4rem;
-  font-family: $font_secondary_wide;  
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.5em;
-  letter-spacing: 2.5px;
-  color: $color_purple;
-
-    span.day-of-the-week {
-      font-family: $font_main;
-      font-weight: bold;
-      font-style: normal;
-    }  
-}
 .blog,
 .type-post .entry-header{
   position: relative;
@@ -40,15 +25,15 @@ h2.widget-title {
   width: 47rem;
   padding-top: 2rem;
 }
-.post .entry-title  a:hover {
+.post .entry-header .entry-title  a:hover {
   color: $color_yellow;
 }
-.type-post .entry-title {
+.content-area .type-post .entry-title {
   position: absolute;
   top: 0;
   background-color: $color_green;
   max-width: 75%;
-  margin-top: 4.25rem;
+  margin-top: 2.25rem;
   font-size: 2rem;
   padding: .75rem 1.5rem;
   color: $color_white;
@@ -62,6 +47,9 @@ h2.widget-title {
     color: $color_white;
   }
 }
+.post .entry-header img{
+  width: 50rem;
+}
 .type-post .entry-meta {
   position: absolute;
   bottom: 0;
@@ -72,7 +60,7 @@ h2.widget-title {
   font-family: $font_secondary_norm;
   font-weight: normal;
   font-style: normal;
-  margin-right: 7px;
+  margin-right: 0;
   margin-bottom: 6px;  
   text-transform: uppercase;
 

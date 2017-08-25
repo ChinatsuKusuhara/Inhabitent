@@ -52,7 +52,7 @@ add_filter( 'logo_headertitle', 'inhabitent_login_title');
 	if ( ! $image ) {
 			return;
 	}
-	$hero_css = ".page-template-about .entry-header {
+	$hero_css = ".custom-hero {
 			background:
 					linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
 					url({$image}) no-repeat center bottom;
@@ -75,25 +75,24 @@ function archive_product_title( $title ) {  //change to inhabitent_archive_produ
 add_filter('get_the_archive_title', 'archive_product_title');
 
 /* this will take in 16 and 4  images of the shop stuff*/ 
-
-function get_product_posts($query) {
-	if(is_post_type_archive('product') && !is_admin() && $query->is_main_query()) {
-		$query->set( 'posts_per_page', 16);
-		$query->set( 'orderby', 'title');
-		$query->set( 'order', 'ASC' );
+function inhabitent_title( $title ) {
+	if  ( is_post_type_archive('product') ) {
+			$title = 'Shop Stuff';
+	} elseif ( is_tax('product-type') ) {
+			$title = single_term_title( '', false);
 	}
+	return $title;
 }
-add_action('pre_get_posts', 'get_product_posts');
-
-function product_archive_title($title) {
-	if( is_post_type_archive('product')) {
-		$title = "Shop Stuff";
-	} elseif( is_tax() ){
-		$title = single_term_title('', false);
+add_filter( 'get_the_archive_title', 'inhabitent_title' );
+//Increase amount of posts that display in shop to max 16
+function inhabitent_limit_archive_posts($query){
+if ($query->is_archive) {
+	$query->set('posts_per_page', 16);
+	$query->set( 'order', 'ASC' );
 	}
-		return $title;
+	return $query;
 }
-add_filter('get_the_archive_title', 'product_archive_title');
+add_filter('pre_get_posts', 'inhabitent_limit_archive_posts');
 
 /* Get the Archive title for DO EAT SLEEP and WEAR */ 
 function inhabitent_archive_title($title) {

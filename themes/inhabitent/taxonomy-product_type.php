@@ -1,10 +1,9 @@
 <?php
 /**
- * Template Name:  Product Archive
+ * The template for displaying archive pages.
  *
  * @package RED_Starter_Theme
  */
-
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -16,29 +15,29 @@ get_header(); ?>
 				<?php
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-
-				$term = get_term( 'product' ); ?>
+				?>
 
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
-				<div class="product-types">
-					<?php while (have_posts() ) : the_post(); ?>
-						<div class="product-details">
-							<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-								<header class="entry-header">
-									<?php if ( has_post_thumbnail() ) : ?>
-										<a href="<?php permalink(); ?>">
-											<?php get_post_thumbnail('large'); ?> 
-										</a>
 
-									<?php endif; ?>
-									<div class="product-type-details">
-										<?php the_title(sprintf ('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( (get_pramalink() ) )), '</a></h2>'); ?>
+            <section class="flex-container">
+			<?php while ( have_posts() ) : the_post(); ?>
 
-											<p><?php echo CFS()->get('price'); ?></p>
-									</div>
-						</div>
+        <div class="flex-product-item">
+          <?php if ( has_post_thumbnail() ) : ?>
+					<a href=<?php echo get_post_permalink() ?>>
+					
+					<div class="product-thumbnail"><?php the_post_thumbnail( 'large' ); ?></div></a>
+					<?php endif; ?>
+					
+					<div class="product-title-section">
+						<h2 class="entry-title">
+							<span><?php the_title(); ?></span> 
+							<span>.....................................</span>
+							<span><?php echo CFS()->get( 'price' ); ?></span>
+						</h2>
+					</div>
 				</div>
 
 			<?php endwhile; ?>
@@ -48,11 +47,10 @@ get_header(); ?>
 		<?php else : ?>
 
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
+        </section>
 		<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
 <?php get_footer(); ?>
-
-

@@ -44,8 +44,9 @@ a.shop-button {
   text-transform: uppercase;
   margin-left: 0 auto;
   position: relative;
+  
   &:hover {
-    background: darken(#21759b, 10%);
+    background: #19625d;
   }
 }
 
