@@ -10,11 +10,15 @@
   //   margin-bottom: 4.5rem;
   // }
 }
-.single-product .single-product-title {
+h1.single-product-title {   //***
   margin-top: 0;
   text-transform: uppercase;
-  line-height: 1.25;
-  letter-spacing: 5px;
+  line-height: 1rem;
+  letter-spacing: 1px;
+  font-family: $font_secondary_wide;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.25rem;  
 }
 .single-product .site-content{
   display: flex;
@@ -27,10 +31,14 @@
 
 .product-img {
   width: 48%;
+  margin-top: 3rem;  //***
+  margin-bottom: 4rem; //***
 }
 
 .product-desc{
   width: 48%;
+  margin-top: 3rem; //***
+  margin-bottom: 4rem; //***
 
   .social-wrap {
     margin: 1.5rem 0;
@@ -58,10 +66,22 @@
   font-size: 1rem;
   padding: .75rem 1.5rem;  
 
-  &:hover {
-    color: $color_white;
-    background: $color_green;
+  .fa {      //***
+    color: black;
   }
+
+  &:hover {
+    background: $color_green;
+
+    a{
+      color: $color_white;
+    }
+
+    .fa {
+      color: $color_white;
+    }
+  }  
+
 }
 
 div p {
@@ -75,4 +95,7 @@ div p {
   font-size: 1.8rem;
   margin: 0;
   text-transform: uppercase;
+  font-family: $font_secondary_norm;
+  font-weight: normal;
+	font-style: normal;
 }

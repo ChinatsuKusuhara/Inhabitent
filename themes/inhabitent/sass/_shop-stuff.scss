@@ -20,6 +20,10 @@
     a {
       color: $color_green;
       text-decoration: none;
+      font-family: $font_secondary_norm;
+      font-weight: normal;
+      font-style: normal; 
+      font-size: 1.25rem;  //***
     }
     li {
       margin: 0 1.5rem;
@@ -89,3 +93,4 @@
       border: 1px solid #e1e1e1;
     }
 }
+
