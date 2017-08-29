@@ -132,3 +132,26 @@ a {
 		display: none;
 	}
 }
+
+/* SEARCH PAGINATION */
+.search-pagination .page-numbers{
+	border: $border-solid;
+	background: $color_green;
+	color: $color_white;
+	text-decoration: none;
+	font-family: $font_secondary_norm;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	padding: 4px 9px 5px 9px;
+	border: none;
+
+	&:hover {
+		background: $color_purple;
+
+	}
+}
+
+.numbered-pagination span.current {
+	color: grey;
+}  //*** fix current pagination
