@@ -1,6 +1,6 @@
 .logo-tent-white {
   height: 33px;
-  margin-top: 10px;
+  margin-top: 5px;  //***
 }
 
 .main-navigation,
@@ -33,11 +33,22 @@
   margin: 0 auto;
 }
 .menu-main-menu-container {
-  margin-left: 465px;
+  margin-left: 43rem;  //***
   padding-top: .5rem;
 }
 .main-navigation a {
+  margin-top: 6px;
+
   &:visited {
     color: $color_green;
+  }
+}
+
+.search-field {  //***
+  width: 0px;
+
+  &.expand {
+    opacity: 1;
+    width: 250px;
   }
 }
