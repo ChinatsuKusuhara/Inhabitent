@@ -134,6 +134,13 @@ a {
 }
 
 /* SEARCH PAGINATION */
+nav.search-pagination {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	border-top: $border-solid;
+	padding-top: 2rem;
+}
+
 .search-pagination .page-numbers{
 	border: $border-solid;
 	background: $color_green;
