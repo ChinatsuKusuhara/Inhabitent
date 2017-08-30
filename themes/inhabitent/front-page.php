@@ -11,10 +11,6 @@ get_header(); ?>
 		<section class="hero-banner">
 			<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/asset/logos/inhabitent-logo-full.svg" alt="Inhabitent Camping Supply Co.">
 		</section>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php endwhile; // End of the loop. ?>
-
 		</main><!-- #main -->
 
 	</div><!-- #primary -->

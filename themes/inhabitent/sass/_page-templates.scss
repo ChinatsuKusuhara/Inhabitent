@@ -73,6 +73,7 @@
        background-color: $color_green;
        color: $color_white;
        border: 1px solid #19625d; 
+       border: none;
      }
   }
 }
@@ -129,7 +130,7 @@ div p a.read-more{
   padding: 1.6rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../asset/adventure-photos/canoe-girl.jpg) center;
   background-size: cover, cover;
-  border-right: solid 10px #e1e1e1;
+  border-right: solid 10px white;
   font-size: 2.8rem;
 }
 
@@ -139,8 +140,8 @@ div p a.read-more{
   padding: 1.6rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, .4) 0, rgba(0, 0, 0, .4)), url(../../asset/adventure-photos/beach-bonfire.jpg) center;
   background-size: cover, cover;
-  border-left: solid 10px #e1e1e1;
-  border-bottom: solid 10px #e1e1e1;
+  border-left: solid 10px white;
+  border-bottom: solid 10px white;
   font-size: 2rem;
    p{
      margin: 0;

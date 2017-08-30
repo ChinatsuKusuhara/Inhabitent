@@ -44,10 +44,12 @@
   }
 }
 
-.search-field {  //***
+input.search-field {  //***
   width: 0px;
+  border: 0;
+  line-height: 1;
 
-  &.expand {
+  &:expand {
     opacity: 1;
     width: 250px;
   }

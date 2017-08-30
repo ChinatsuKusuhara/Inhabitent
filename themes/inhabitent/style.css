@@ -868,7 +868,8 @@ h2.header {
     .home .journal-post-info a.read-more:hover {
       background-color: #248A83;
       color: #fff;
-      border: 1px solid #19625d; }
+      border: 1px solid #19625d;
+      border: none; }
 
 div a.adventure-link:hover {
   color: #f0e4d1; }
@@ -915,7 +916,7 @@ div p a.read-more {
   padding: 1.6rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../asset/adventure-photos/canoe-girl.jpg) center;
   background-size: cover, cover;
-  border-right: solid 10px #e1e1e1;
+  border-right: solid 10px white;
   font-size: 2.8rem; }
 
 .photo-2 {
@@ -924,8 +925,8 @@ div p a.read-more {
   padding: 1.6rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), url(../../asset/adventure-photos/beach-bonfire.jpg) center;
   background-size: cover, cover;
-  border-left: solid 10px #e1e1e1;
-  border-bottom: solid 10px #e1e1e1;
+  border-left: solid 10px white;
+  border-bottom: solid 10px white;
   font-size: 2rem; }
   .photo-2 p {
     margin: 0; }
@@ -1030,9 +1031,11 @@ div p a.read-more {
   .main-navigation a:visited {
     color: #248A83; }
 
-.search-field {
-  width: 0px; }
-  .search-field.expand {
+input.search-field {
+  width: 0px;
+  border: 0;
+  line-height: 1; }
+  input.search-field:expand {
     opacity: 1;
     width: 250px; }
 
