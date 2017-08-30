@@ -1030,6 +1030,8 @@ div p a.read-more {
   margin-top: 6px; }
   .main-navigation a:visited {
     color: #248A83; }
+    .main-navigation a:visited:hover {
+      color: black; }
 
 input.search-field {
   width: 0px;
@@ -1412,6 +1414,26 @@ a.shop-button {
   transform: translate(-50%, -52%);
   width: auto;
   position: absolute; }
+
+/* PRODUCT TYPE ; DO EAT WEAR SLEEP */
+main header h1.page-title {
+  text-transform: uppercase;
+  font-family: "Novecento sans wide", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 2.5rem; }
+
+section div h2.entry-title {
+  text-transform: capitalize;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
 
 /* PRODUCT TYPE */
 .tax-product_type .page-header {

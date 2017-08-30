@@ -75,6 +75,28 @@
   position: absolute;
 }
 
+/* PRODUCT TYPE ; DO EAT WEAR SLEEP */
+
+main header h1.page-title {
+  text-transform: uppercase;
+  font-family: $font_secondary_wide;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;  
+  font-size: 2.5rem;
+}
+
+section div h2.entry-title {
+  text-transform:  capitalize;
+  font-family: $font_main;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 /* PRODUCT TYPE */
 .tax-product_type .page-header {

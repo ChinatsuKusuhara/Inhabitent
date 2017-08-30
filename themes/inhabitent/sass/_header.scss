@@ -12,7 +12,7 @@
     text-transform: uppercase;
 
     .menu-item{
-      padding-left: 1.5rem;   
+      padding-left: 1.5rem;  
     }
   }
 
@@ -41,6 +41,10 @@
 
   &:visited {
     color: $color_green;
+
+    &:hover{
+      color: black;//$color_purple;
+    }
   }
 }
 
