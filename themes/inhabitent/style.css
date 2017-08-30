@@ -1288,6 +1288,16 @@ h2 {
 .page-template-find-us .contact-meta, i.fa {
   color: #404040; }
 
+.custom-hero {
+  height: 100vh; }
+
+.page-template-about .about {
+  margin-top: 21rem;
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 10; }
+
 div h2.story-header {
   display: -ms-flexbox;
   display: flex;

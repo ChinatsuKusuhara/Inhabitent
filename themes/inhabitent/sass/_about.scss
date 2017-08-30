@@ -1,32 +1,14 @@
-// .custom-hero {
-//   height: 100vh;
+.custom-hero {
+  height: 100vh;
+}
 
- 
-  // .page-template-about .entry-title{
-  //   color: $color_white;
-  //   text-transform: uppercase;
-  //   margin-top: 21rem;
-  //   margin-left: 12.5em; 
-  //   font-weight: 300;
-  //   font-style: normal;    
-  //   font-size: 3em;
-  //   font-family: $font_secondary_wide;
-  //   font-weight: 600;
-  //   font-style: normal;
-  //   letter-spacing: 2px;
-  // }
-// }
-
-// .page-template-about .about-content{
-//   margin: 3rem auto;
-//   max-width: 800px;
-// }
-// .page-template-about .about {
-//   text-align: center;
-//   color: $color_white;
-//   font-size: 3rem;
-
-// }
+.page-template-about .about {
+  margin-top: 21rem;
+  text-align: center;
+  color: $color_white;
+  font-size: 3rem;
+  line-height: 10;
+}
 
 div h2.story-header {  //***
   display: flex;
