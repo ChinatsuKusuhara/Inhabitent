@@ -1,12 +1,19 @@
 .site-footer {
   background-image: url('../../asset/dark-wood.png');
-  padding-top: 4%;
+  padding-top: 2%;
   padding-bottom: 2%;
   
-    .site-info {
+    .site-info {  //***
       display: flex;
-      justify-content: space-around;   
       
+      div.contact {
+        margin-left: 6rem;
+      }
+      div.business-hours {
+        margin-left: 6rem;
+        margin-right: 22rem;
+      }
+
         h3 {
           color: $color_orange; 
           font-size: 19px;         
@@ -60,7 +67,7 @@ li,i,
   }
 }
 
-.logo-text {
+img.logo-text {
   width: 15rem;
   margin-bottom: 8rem;
 }
