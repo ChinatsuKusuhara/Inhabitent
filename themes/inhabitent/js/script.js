@@ -3,9 +3,15 @@
 
   $('.icon-search').on('click', function(){
     event.preventDefault();
-    $('.main-nav .search-field').toggleClass('fast');
-    $('.main-nav .search-field').focus();
+    $('.main-navigation .search-field').toggleClass('search-visible');
+    $('.main-navigation .search-field').focus();
   });
+
+  $('.main-navigation .search-field').on('blur', function() {
+    $('.main-navigation .search-field').toggleClass('search-visible');
+  });
+  
+
 })(jQuery);
 
 //*** 

@@ -1,6 +1,7 @@
 .logo-tent-white {
   height: 33px;
   margin-top: 5px;  //***
+  margin-right: 40rem;  ///***  
 }
 
 .main-navigation,
@@ -27,13 +28,12 @@
 }
 .header {
   display: flex;
-  //justify-content: space-between;
   height: 50px;
   width: 1120px;
   margin: 0 auto;
+  justify-content: flex-end;  //****
 }
 .menu-main-menu-container {
-  margin-left: 43rem;  //***
   padding-top: .5rem;
 }
 .main-navigation a {
@@ -43,18 +43,28 @@
     color: $color_green;
 
     &:hover{
-      color: black;//$color_purple;
+      color: $color_purple;
     }
   }
 }
 
 input.search-field {  //***
-  width: 0px;
+  padding-top: .5rem;
+  width: 0;
   border: 0;
+  opacity: 0;
   line-height: 1;
+  transition: .5s;
+  font-family: $font_secondary_norm;
+  font-weight: normal;
+	font-style: normal;
 
-  &:expand {
+  &.search-visible {
     opacity: 1;
     width: 250px;
   }
+}
+
+span i.fa-search {
+  color: $color_green;
 }

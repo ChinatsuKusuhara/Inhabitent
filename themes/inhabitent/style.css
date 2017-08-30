@@ -994,7 +994,8 @@ div p a.read-more {
 
 .logo-tent-white {
   height: 33px;
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-right: 40rem; }
 
 .main-navigation,
 .menu {
@@ -1020,10 +1021,11 @@ div p a.read-more {
   display: flex;
   height: 50px;
   width: 1120px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
 
 .menu-main-menu-container {
-  margin-left: 43rem;
   padding-top: .5rem; }
 
 .main-navigation a {
@@ -1031,15 +1033,24 @@ div p a.read-more {
   .main-navigation a:visited {
     color: #248A83; }
     .main-navigation a:visited:hover {
-      color: black; }
+      color: #2f1339; }
 
 input.search-field {
-  width: 0px;
+  padding-top: .5rem;
+  width: 0;
   border: 0;
-  line-height: 1; }
-  input.search-field:expand {
+  opacity: 0;
+  line-height: 1;
+  transition: .5s;
+  font-family: "Novecento sans wide Normal", sans-serif;
+  font-weight: normal;
+  font-style: normal; }
+  input.search-field.search-visible {
     opacity: 1;
     width: 250px; }
+
+span i.fa-search {
+  color: #248A83; }
 
 /*--------------------------------------------------------------
 # 404
@@ -1356,11 +1367,11 @@ a.shop-button {
     background: #19625d; }
 
 /* SHOP STUFF */
-.product-post .entry-title::before {
+.product-post .entry-title::after {
   content: "............................";
   float: left;
-  white-space: nowrap;
-  width: 0; }
+  overflow: hidden;
+  display: inline-block; }
 
 .post-type-archive .page-header {
   border-bottom: 1px dashed #c8c8c8;
