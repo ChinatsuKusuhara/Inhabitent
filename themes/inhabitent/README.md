@@ -1,5 +1,3 @@
-![screencapture-localhost-3000-inhabitent-1504123021040](https://user-images.githubusercontent.com/29563161/29893628-8b6cbb6c-8d87-11e7-8197-304f0e0e5217.png)
-
 # Inhabitent Theme
 
 A WordPress starter theme for RED Academy students, forked from Underscores.
@@ -32,3 +30,5 @@ Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Br
 ## Author
 
 * **Chinatsu Kusuhara** -  [ChinatsuKusuhara](https://github.com/ChinatsuKusuhara)
+
+![screencapture-localhost-3000-inhabitent-1504123021040](https://user-images.githubusercontent.com/29563161/29893628-8b6cbb6c-8d87-11e7-8197-304f0e0e5217.png)
