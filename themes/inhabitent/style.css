@@ -1292,7 +1292,6 @@ h2 {
   height: 100vh; }
 
 .page-template-about .about {
-  margin-top: 21rem;
   text-align: center;
   color: #fff;
   font-size: 3rem;
@@ -1307,6 +1306,10 @@ div h2.story-header {
 div p.p1 {
   width: 75%;
   margin-left: 10rem; }
+
+div main div.about-content {
+  margin-top: 3rem;
+  margin-bottom: 4rem; }
 
 .home .shop-section {
   display: -ms-flexbox;
