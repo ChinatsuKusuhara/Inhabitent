@@ -1,7 +1,7 @@
 .logo-tent-white {
   height: 33px;
-  margin-top: 5px;  //***
-  margin-right: 40rem;  ///***  
+  margin-top: 5px;  
+  margin-right: 40rem;  
 }
 
 .main-navigation,
@@ -31,7 +31,7 @@
   height: 50px;
   width: 1120px;
   margin: 0 auto;
-  justify-content: flex-end;  //****
+  justify-content: flex-end;  
 }
 .menu-main-menu-container {
   padding-top: .5rem;
@@ -48,7 +48,7 @@
   }
 }
 
-input.search-field {  //***
+input.search-field {  
   padding-top: .5rem;
   width: 0;
   border: 0;
@@ -61,9 +61,9 @@ input.search-field {  //***
 
   &.search-visible {
     opacity: 1;
-    width: 250px;
+    width: 3rem;
   }
 }
-span i.fa-search {  //***
+span i.fa-search {  
   color: $color_green;
 }

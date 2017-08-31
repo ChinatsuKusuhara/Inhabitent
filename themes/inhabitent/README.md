@@ -31,4 +31,5 @@ Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Br
 
 * **Chinatsu Kusuhara** -  [ChinatsuKusuhara](https://github.com/ChinatsuKusuhara)
 
-![screencapture-localhost-3000-inhabitent-1504123021040](https://user-images.githubusercontent.com/29563161/29893628-8b6cbb6c-8d87-11e7-8197-304f0e0e5217.png)
+![screencapture-localhost-3000-inhabitent-1504138277157](https://user-images.githubusercontent.com/29563161/29900367-4850b1ca-8da6-11e7-8f2a-9ad4402546aa.png)
+
