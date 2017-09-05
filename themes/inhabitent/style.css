@@ -1370,12 +1370,32 @@ a.shop-button {
     background: #19625d; }
 
 /* SHOP STUFF */
-.product-post .entry-title span::before {
-  content: "............................";
-  max-width: 1.25rem;
+.product-post .entry-title {
+  background: #fff;
+  display: inline;
+  font-size: 1rem;
+  font-family: "Merriweather", serif;
+  letter-spacing: 0;
+  line-height: 1.75;
+  padding-right: .25rem;
+  text-transform: none;
+  font-weight: 400; }
+
+.product-post .product-title-section {
+  padding: .75rem 1rem;
+  font-size: .9rem; }
+
+.product-post .price {
+  float: right;
+  padding-left: .25rem;
+  background: #fff; }
+
+.product-post .entry-title::before {
+  content: "..............................................";
+  width: 0;
   white-space: nowrap;
-  overflow: hidden;
-  display: inline-block; }
+  display: inline-block;
+  float: left; }
 
 .post-type-archive .page-header {
   border-bottom: 1px dashed #c8c8c8;
@@ -1433,8 +1453,6 @@ a.shop-button {
     overflow: hidden;
     background-color: #e1e1e1;
     position: relative; }
-  .product-post .entry-title {
-    margin-left: 1rem; }
 
 .product-post .wp-post-image {
   max-height: 250px;
@@ -1453,24 +1471,6 @@ main header h1.page-title {
   font-style: normal;
   letter-spacing: 2px;
   font-size: 2.5rem; }
-
-section div h2.entry-title {
-  text-transform: capitalize;
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1rem;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-
-section div h2.entry-title::before {
-  content: "............................";
-  max-width: 1.25rem;
-  white-space: nowrap;
-  overflow: hidden;
-  display: inline-block; }
 
 .tax-product_type .page-header {
   text-align: center;

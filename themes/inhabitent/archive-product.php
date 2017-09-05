@@ -38,12 +38,11 @@ get_header(); ?>
 					<a href=<?php echo get_post_permalink() ?>><div class="product-thumbnail"><?php the_post_thumbnail( 'large' ); ?></div></a>
 					<?php endif; ?>
 					<div class="product-title-section">
-						<p class="entry-title">
+						<h2 class="entry-title">
 							<?php the_title(); ?>
-							<span><?php echo CFS()->get( 'price' ); ?></span>
-            </p>
+						</h2>
+							<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
 					</div>
-					
 				</div>
 			<?php endwhile; ?>
 			</section>

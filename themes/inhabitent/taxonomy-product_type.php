@@ -21,10 +21,10 @@ get_header(); ?>
 
 			<?php /* Start the Loop */ ?>
 
-            <section class="flex-container">
+		<section class="flex-container">
 			<?php while ( have_posts() ) : the_post(); ?>
 
-        <div class="flex-product-item">
+        <div class="product-post">
           <?php if ( has_post_thumbnail() ) : ?>
 					<a href=<?php echo get_post_permalink() ?>>
 					
@@ -33,9 +33,9 @@ get_header(); ?>
 					
 					<div class="product-title-section">
 						<h2 class="entry-title">
-							<p><?php the_title(); ?></p> 
-							<p><?php echo CFS()->get( 'price' ); ?></p>
+							<?php the_title(); ?>
 						</h2>
+						<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
 					</div>
 				</div>
 
